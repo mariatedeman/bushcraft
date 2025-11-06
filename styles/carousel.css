@@ -1,0 +1,25 @@
+.carousel {
+    margin: 1rem;
+    display: flex;
+    column-gap: 0.5rem;
+    width: 90vw;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+}
+
+.card {
+    height: 450px;
+    flex: 0 0 290px;
+    scroll-snap-align: start;
+}
+
+.card img {
+    width: 100%;
+    height: 390px;
+    background-color: lightgray;
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
