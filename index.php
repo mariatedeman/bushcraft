@@ -1,20 +1,173 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php require_once __DIR__ . "/includes/header.php" ?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<section class="hero">
+    <div class="hero-container">
+        <img src="assets/logotyp_text_symbol.png">
+        <div>
+            <p class="body-bold">Underrubrik</p>
+            <button class="button-primary">Button</button>
+        </div>
+    </div>
+</section>
 
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lexend+Exa:wght@100..900&display=swap" rel="stylesheet">
+<h2>Nyheter</h2>
 
-</head>
+<section class="carousel">
+    <div class="card">
+        <img src="">
+        <div class="card-text">
+            <p><strong>Produktnamn</strong> <br>
+                Pris</p>
+        </div>
+    </div>
 
-<body>
+    <div class="card">
+        <img src="">
+        <div class="card-text">
+            <p><strong>Produktnamn</strong> <br>
+                Pris</p>
+        </div>
+    </div>
+    <div class="card">
+        <img src="">
+        <div class="card-text">
+            <p><strong>Produktnamn</strong> <br>
+                Pris</p>
+        </div>
+    </div>
+    <div class="card">
+        <img src="">
+        <div class="card-text">
+            <p><strong>Produktnamn</strong> <br>
+                Pris</p>
+        </div>
+    </div>
+    <div class="card">
+        <img src="">
+        <div class="card-text">
+            <p><strong>Produktnamn</strong> <br>
+                Pris</p>
+        </div>
+    </div>
+    <div class="card">
+        <img src="">
+        <div class="card-text">
+            <p><strong>Produktnamn</strong> <br>
+                Pris</p>
+        </div>
+    </div>
+    <div class="card">
+        <img src="">
+        <div class="card-text">
+            <p><strong>Produktnamn</strong> <br>
+                Pris</p>
+        </div>
+    </div>
+    <div class="card">
+        <img src="">
+        <div class="card-text">
+            <p><strong>Produktnamn</strong> <br>
+                Pris</p>
+        </div>
+    </div>
+    <div class="card">
+        <img src="">
+        <div class="card-text">
+            <p><strong>Produktnamn</strong> <br>
+                Pris</p>
+        </div>
+    </div>
+</section>
 
-</body>
 
-</html>
+<section class="img-background">
+    <div>
+        <div class="img-background-text">
+            <p>Underrubrik</p>
+            <h2>Text</h2>
+        </div>
+        <button class="button-secondary">Button</button>
+    </div>
+</section>
+
+<h2>Kintech</h2>
+
+<section class="carousel">
+    <div class="card card-button">
+        <img src="">
+        <button class="button-secondary">Button</button>
+
+        <div class="card-text">
+            <p><strong>Produktnamn</strong> <br>
+                Pris</p>
+        </div>
+    </div>
+    <div class="card card-button">
+        <img src="">
+        <button class="button-secondary">Button</button>
+
+        <div class="card-text">
+            <p><strong>Produktnamn</strong> <br>
+                Pris</p>
+        </div>
+    </div>
+    <div class="card card-button">
+        <img src="">
+        <button class="button-secondary">Button</button>
+
+        <div class="card-text">
+            <p><strong>Produktnamn</strong> <br>
+                Pris</p>
+        </div>
+    </div>
+    <div class="card card-button">
+        <img src="">
+        <button class="button-secondary">Button</button>
+
+        <div class="card-text">
+            <p><strong>Produktnamn</strong> <br>
+                Pris</p>
+        </div>
+    </div>
+    <div class="card card-button">
+        <img src="">
+        <button class="button-secondary">Button</button>
+
+        <div class="card-text">
+            <p><strong>Produktnamn</strong> <br>
+                Pris</p>
+        </div>
+    </div>
+    <div class="card card-button">
+        <img src="">
+        <button class="button-secondary">Button</button>
+
+        <div class="card-text">
+            <p><strong>Produktnamn</strong> <br>
+                Pris</p>
+        </div>
+    </div>
+    <div class="card card-button">
+        <img src="">
+        <button class="button-secondary">Button</button>
+
+        <div class="card-text">
+            <p><strong>Produktnamn</strong> <br>
+                Pris</p>
+        </div>
+    </div>
+
+    </div>
+</section>
+
+<section class="img-background">
+    <div>
+        <div class="img-background-text">
+            <p>Underrubrik</p>
+            <h2>Text</h2>
+        </div>
+        <button class="button-secondary">Button</button>
+    </div>
+</section>
+
+<?php require_once __DIR__ . "/includes/footer.php" ?>

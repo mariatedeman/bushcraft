@@ -1,0 +1,203 @@
+:root {
+    --primary-dark: ;
+    --hover-dark: ;
+    --primary-light: ;
+    --hover-light: ;
+    --secondary: ;
+    --secondary-hover: ;
+    --accent: ;
+    --pressed: ;
+    --heading-font: Lexend Exa;
+    --body-font: IBM Plex Mono;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+}
+
+/* --- FONTS ---*/
+
+h1, h2 {
+    font-family: var(--heading-font);
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    
+    margin: 2rem;
+}
+
+p, .body-bold {
+    font-family: var(--body-font);
+}
+
+.body-bold {
+    font-weight: 600;
+}
+
+/* --- LINKS AND BUTTONS ---*/
+
+.button-primary {
+    border: none;
+    height: 44px;
+    padding: 10px 30px 10px 30px;
+    background: #9d9d9d;
+
+    font-family:var(--body-font);
+}
+
+.button-secondary {
+    border: none;
+    height: 44px;
+    padding: 10px 30px 10px 30px;
+    background: #ffffff;
+
+    font-family:var(--body-font);
+}
+
+
+/* --- HOME PAGE --- */
+
+header {
+    height: 92px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icon-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding-bottom: 10px;
+}
+
+.hero {
+    height: 80vh;
+    width: 100vw;
+    background-color: lightgrey;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-container {
+    height: 75%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+/* --- CAROUSEL -- */
+
+.carousel {
+    margin-left: 1rem;
+    margin-right: 0;
+    display: flex;
+    column-gap: 0.5rem;
+    width: 90vw;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+}
+
+.card {
+    height: 450px;
+    flex: 0 0 290px;
+    scroll-snap-align: start;
+    margin-bottom: 3rem;
+}
+
+.card img {
+    width: 100%;
+    height: 390px;
+    background-color: lightgray;
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+
+/*--- KINTECH CAROUSEL ---*/
+
+.card-button {
+    position: relative;
+}
+
+.card-button .button-secondary {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
+
+
+
+/* --- SIGNUP ---*/
+
+.img-background {
+    background-color: lightgray;
+    height: 650px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-background div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-background-text > *  {
+    margin: 0.5rem;
+}
+
+.img-background h2 {
+    margin-bottom: 1rem;
+}
+
+/* --- FOOTER ---*/
+footer {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 2rem;
+}
+
+footer p {
+    font-weight: 600;
+}
+
+.footer-more-info {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.footer-socials, .footer-payment {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-socials span, .footer-payment span {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
