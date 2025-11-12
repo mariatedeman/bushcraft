@@ -17,10 +17,10 @@
 
     <header>
         <div class="icon-container">
-            <a><img src="assets/hamburger-menu.svg"></a>
-            <a><img src="assets/search.svg"></a>
-            <a><img src="assets/logotyp_header.svg"></a>
-            <a><img src="assets/smile.svg"></a>
-            <a><img src="assets/shopping-cart.svg"></a>
+            <div class="icon-box"><a><img src="assets/hamburger-menu.svg"></a></div>
+            <div class="icon-box"><a><img src="assets/search.svg"></a></div>
+            <div class="icon-box"><a><img src="assets/logotyp_header.svg"></a></div>
+            <div class="icon-box"><a><img src="assets/smile.svg"></a></div>
+            <div class="icon-box"><a><img src="assets/shopping-cart.svg"></a></div>
         </div>
     </header>
