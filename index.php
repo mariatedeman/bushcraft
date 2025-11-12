@@ -79,14 +79,34 @@
     </div>
 </section>
 
+<!-- SIGN UP SECTION -->
+<section class="img-background-signup">
+    <div class="img-background-text">
+        <p class="subheading">Undertext</p>
+        <h2>TEXT</h2>
+    </div>
+    <div class="signup-container">
+        <p class="subheading">Rubrik</p>
+        <p>Undertext</p>
+        <input type="text" placeholder="E-mail">
+        <button class="button-primary">Button</button>
+    </div>
 
-<section class="img-background">
+</section>
+
+
+<section class="img-background-chat">
     <div>
         <div class="img-background-text">
-            <p class="subheading">Underrubrik</p>
             <h2>Text</h2>
+            <p class="subheading">Underrubrik</p>
         </div>
-        <button class="button-secondary">Button</button>
+        <div class="buttons-container">
+            <button class="button-secondary">Button</button>
+            <button class="button-secondary">Button</button>
+            <button class="button-secondary">Button</button>
+            <button class="button-secondary">Button</button>
+        </div>
     </div>
 </section>
 

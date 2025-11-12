@@ -39,7 +39,7 @@ p, .body-bold {
     font-family: var(--body-font);
     font-weight: 600;
     text-align: center;
-    margin: 1rem;
+    margin: 1rem 0 1rem 0;
 }
 
 .body-bold {
@@ -53,7 +53,6 @@ p, .body-bold {
     border-radius: 2px;
     height: 44px;
     padding: 10px 30px 10px 30px;
-    margin: 1rem;
     background: #9d9d9d;
 
     font-family:var(--body-font);
@@ -169,7 +168,7 @@ header {
 
 /* --- SIGNUP ---*/
 
-.img-background {
+.img-background, .img-background-signup, .img-background-chat {
     background-color: lightgray;
     height: 650px;
     width: 100vw;
@@ -178,19 +177,40 @@ header {
     align-items: center;
 }
 
-.img-background div {
-    display: flex;
+.img-background-signup {
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
 }
 
-.img-background-text > *  {
-    margin: 0.5rem;
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 1rem;
+}
+
+.signup-container p {
+    text-align: left;
+}
+
+.signup-container input, .signup-container button {
+    width: 280px;
+    height: 44px;
+    font-family: var(--body-font);
 }
 
 .img-background h2 {
     margin-bottom: 1rem;
+}
+
+/* --- CHAT --- */
+
+.buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 5rem;
 }
 
 /* --- FOOTER ---*/
