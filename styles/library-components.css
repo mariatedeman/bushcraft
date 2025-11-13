@@ -1,11 +1,11 @@
 :root {
-    --primary-dark: ;
-    --hover-dark: ;
-    --primary-light: ;
-    --hover-light: ;
-    --secondary: ;
-    --secondary-hover: ;
-    --accent: ;
+    --primary-dark: rgb(36 11 11);
+    --hover-dark: rgb(96 77 77);
+    --primary-light: rgb(246 245 242);
+    --hover-light: rgb(229 227 221);
+    --secondary: rgb(74 84 40);
+    --secondary-hover: rgb(132 138 110);
+    --accent: rgb(202 14 14);
     --pressed: ;
     --heading-font: Lexend Exa;
     --body-font: IBM Plex Mono;
