@@ -123,6 +123,18 @@
 
     /* --- CHAT --- */
 
+    .gallery-desktop .card-button {
+        height: 676px;
+        width: 676px;
+    }
 
+    .gallery-desktop .card-button img {
+        width: 676px;
+        height: 100%;
+    }
+
+    .card-button button {
+        top: 85%;
+    }
 
 }

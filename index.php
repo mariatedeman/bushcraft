@@ -42,7 +42,7 @@
 <section class="img-background-chat">
     <div>
         <div class="img-background-text">
-            <p class="subheading">Läs och diskutera bush craft i vårt medlemsforum</p>
+            <p>Läs och diskutera bush craft i vårt medlemsforum</p>
             <h2>Kinchatten</h2>
         </div>
         <div class="buttons-container">
@@ -61,10 +61,10 @@
 <section class="img-background">
     <div>
         <div class="img-background-text">
-            <p class="subheading">Underrubrik</p>
-            <h2>Text</h2>
+            <p>Upplev en ny dimension av bushcraft. Designad för dig, drivet av teknik, skapat för planeten.</p>
+            <h2>Vår idé</h2>
         </div>
-        <button class="button-primary">Button</button>
+        <button class="button-primary">Om oss</button>
     </div>
 </section>
 

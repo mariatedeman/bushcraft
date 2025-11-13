@@ -35,12 +35,12 @@
 
     <div class="card card-button">
         <img src="">
-        <button class="button-secondary">Button</button>
+        <button class="button-primary">Button</button>
     </div>
 
     <div class="card card-button">
         <img src="">
-        <button class="button-secondary">Button</button>
+        <button class="button-primary">Button</button>
     </div>
 
 
