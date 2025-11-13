@@ -6,6 +6,10 @@
         margin-bottom: 3rem;
     }
 
+    p {
+        font-size: 18px;
+    }
+
     header .icon-container {
         display: none;
     }
@@ -63,7 +67,35 @@
         display: none;
     }
 
-    /* --- NEWS SECTION ---*/
+    /* --- SIGNUP / KINKOLLEKTIVET --- */
+
+    .img-background-signup,
+    .img-background-chat {
+        height: 780px;
+    }
+
+    .img-background-text p {
+        max-width: 35vw;
+    }
+
+    .signup-container {
+        position: relative;
+        margin-bottom: 6rem;
+    }
+
+    .signup-container input {
+        width: 500px;
+    }
+
+    .signup-container button {
+        position: absolute;
+        right: 0;
+        bottom: -4rem;
+    }
+    
+
+    /* --- MOBILE CAROUSELS => DESKTOP GALLERIES --- */
+
     .carousel {
         display: none;
     }
@@ -73,6 +105,8 @@
         justify-content: center;
         gap: 0.5rem;
     }
+
+    /* --- NEWS SECTION ---*/
 
     .gallery-desktop .card {
         height: 520px;
@@ -87,10 +121,8 @@
         height: 440px;
     }
 
-    .gallery-desktop p {
-        font-size: 1.1rem;
-    }
+    /* --- CHAT --- */
 
-    
-    
+
+
 }

@@ -19,6 +19,7 @@
 <!-- MOBILE: CAROUSEL || DESKTOP: GALLERY -->
 <?php require_once __DIR__ . "/includes/news.php" ?>
 
+
 <!-- SIGN UP SECTION - KINKOLLEKTIVET -->
 <section class="img-background-signup">
     <div class="img-background-text">
@@ -28,10 +29,10 @@
             diskutera spännande ämnen och dela dina bästa tips och råd.</p>
     </div>
     <div class="signup-container">
-        <p class="subheading">Rubrik</p>
-        <p>Undertext</p>
-        <input type="text" placeholder="E-mail">
-        <button class="button-primary">Button</button>
+        <p class="subheading">Bli medlem/ Logga in</p>
+        <p>Mejladress</p>
+        <input type="text" placeholder="emil.emilsson@gmail.com">
+        <button class="button-primary">Skicka verifieringskod</button>
     </div>
 
 </section>
@@ -41,14 +42,14 @@
 <section class="img-background-chat">
     <div>
         <div class="img-background-text">
-            <h2>Text</h2>
-            <p class="subheading">Underrubrik</p>
+            <p class="subheading">Läs och diskutera bush craft i vårt medlemsforum</p>
+            <h2>Kinchatten</h2>
         </div>
         <div class="buttons-container">
-            <button class="button-secondary">Button</button>
-            <button class="button-secondary">Button</button>
-            <button class="button-secondary">Button</button>
-            <button class="button-secondary">Button</button>
+            <button class="button-primary">Button</button>
+            <button class="button-primary">Button</button>
+            <button class="button-primary">Button</button>
+            <button class="button-primary">Button</button>
         </div>
     </div>
 </section>
@@ -63,7 +64,7 @@
             <p class="subheading">Underrubrik</p>
             <h2>Text</h2>
         </div>
-        <button class="button-secondary">Button</button>
+        <button class="button-primary">Button</button>
     </div>
 </section>
 

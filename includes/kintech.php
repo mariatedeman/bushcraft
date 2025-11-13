@@ -31,3 +31,17 @@
 </section>
 
 <!-- GALLERY FOR KINTECH SECTION ON MOBILE -->
+<section class="gallery-desktop">
+
+    <div class="card card-button">
+        <img src="">
+        <button class="button-secondary">Button</button>
+    </div>
+
+    <div class="card card-button">
+        <img src="">
+        <button class="button-secondary">Button</button>
+    </div>
+
+
+</section>

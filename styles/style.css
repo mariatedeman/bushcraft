@@ -71,11 +71,11 @@
 
 /*--- KINTECH CAROUSEL ---*/
 
-.carousel .card-button {
+.card-button {
     position: relative;
 }
 
-.carousel .card-button .button-secondary {
+.card-button .button-secondary {
     position: absolute;
     top: 40%;
     left: 30%;
@@ -84,7 +84,9 @@
 
 /* --- SIGNUP ---*/
 
-.img-background, .img-background-signup, .img-background-chat {
+.img-background, 
+.img-background-signup, 
+.img-background-chat {
     background-color: lightgray;
     height: 650px;
     width: 100vw;
@@ -109,10 +111,17 @@
     text-align: left;
 }
 
-.signup-container input, .signup-container button {
+.signup-container input, 
+.signup-container button {
     width: 280px;
     height: 44px;
     font-family: var(--body-font);
+    border: none;
+}
+
+.signup-container input {
+    padding-left: 0.5rem;
+    border-radius: 2px;
 }
 
 .img-background-text p {

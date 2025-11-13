@@ -53,8 +53,9 @@ p, .body-bold {
     border-radius: 2px;
     height: 44px;
     padding: 10px 30px 10px 30px;
-    background: #9d9d9d;
 
+    background: var(--primary-dark);
+    color: var(--primary-light);
     font-family:var(--body-font);
 }
 
