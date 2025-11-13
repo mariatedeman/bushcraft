@@ -1,0 +1,14 @@
+@media screen and (min-width: 1200px) {
+
+header .icon-container {
+    align-items: center;
+}
+
+header .icon-container .icon-box:nth-child(1) {
+    order: -2;
+}
+header .icon-container .icon-box:nth-child(3) {
+    order: -1;
+}
+    
+}
