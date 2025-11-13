@@ -90,3 +90,40 @@ header .icon-container-desktop {
     justify-content: center;
     align-items: center;
 }
+
+
+/* --- FOOTER ---*/
+footer {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 2rem;
+}
+
+footer p {
+    font-weight: 600;
+}
+
+.footer-more-info {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.footer-socials, .footer-payment {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-socials span, .footer-payment span {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}

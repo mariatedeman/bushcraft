@@ -16,73 +16,8 @@
 </section>
 
 <h2>Nyheter</h2>
-
-<section class="carousel">
-    <div class="card">
-        <img src="">
-        <div class="card-text">
-            <p><strong>Produktnamn</strong> <br>
-                Pris</p>
-        </div>
-    </div>
-
-    <div class="card">
-        <img src="">
-        <div class="card-text">
-            <p><strong>Produktnamn</strong> <br>
-                Pris</p>
-        </div>
-    </div>
-    <div class="card">
-        <img src="">
-        <div class="card-text">
-            <p><strong>Produktnamn</strong> <br>
-                Pris</p>
-        </div>
-    </div>
-    <div class="card">
-        <img src="">
-        <div class="card-text">
-            <p><strong>Produktnamn</strong> <br>
-                Pris</p>
-        </div>
-    </div>
-    <div class="card">
-        <img src="">
-        <div class="card-text">
-            <p><strong>Produktnamn</strong> <br>
-                Pris</p>
-        </div>
-    </div>
-    <div class="card">
-        <img src="">
-        <div class="card-text">
-            <p><strong>Produktnamn</strong> <br>
-                Pris</p>
-        </div>
-    </div>
-    <div class="card">
-        <img src="">
-        <div class="card-text">
-            <p><strong>Produktnamn</strong> <br>
-                Pris</p>
-        </div>
-    </div>
-    <div class="card">
-        <img src="">
-        <div class="card-text">
-            <p><strong>Produktnamn</strong> <br>
-                Pris</p>
-        </div>
-    </div>
-    <div class="card">
-        <img src="">
-        <div class="card-text">
-            <p><strong>Produktnamn</strong> <br>
-                Pris</p>
-        </div>
-    </div>
-</section>
+<!-- MOBILE: CAROUSEL || DESKTOP: GALLERY -->
+<?php require_once __DIR__ . "/includes/news.php" ?>
 
 <!-- SIGN UP SECTION -->
 <section class="img-background-signup">
@@ -100,6 +35,7 @@
 </section>
 
 
+<!-- CHAT SECTION -->
 <section class="img-background-chat">
     <div>
         <div class="img-background-text">
@@ -116,36 +52,8 @@
 </section>
 
 <h2>Kintech</h2>
-
-<section class="carousel">
-
-    <div class="card card-button">
-        <img src="">
-        <button class="button-secondary">Button</button>
-
-        <div class="card-text">
-            <p>Kort brödtext om ovan ämne, upp till tre rader sedan blir texten ...</p>
-        </div>
-    </div>
-
-    <div class="card card-button">
-        <img src="">
-        <button class="button-secondary">Button</button>
-        <div class="card-text">
-            <p>Kort brödtext om ovan ämne, upp till tre rader sedan blir texten ...</p>
-        </div>
-    </div>
-
-    <div class="card card-button">
-        <img src="">
-        <button class="button-secondary">Button</button>
-        <div class="card-text">
-            <p>Kort brödtext om ovan ämne, upp till tre rader sedan blir texten ...</p>
-        </div>
-    </div>
-
-    </div>
-</section>
+<!-- MOBILE: CAROUSEL || DESKTOP: GALLERY -->
+<?php require_once __DIR__ . "/includes/kintech.php" ?>
 
 <section class="img-background">
     <div>
