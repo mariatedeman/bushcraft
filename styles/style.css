@@ -29,6 +29,10 @@
     scale: 1.1;
 }
 
+.singel-logos-desktop {
+    display: none;
+}
+
 
 /* --- CAROUSEL -- */
 

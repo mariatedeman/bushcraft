@@ -27,14 +27,34 @@ header .icon-container-desktop img {
     height: 32px;  
 }
 
-#logo-desktop {
+header #logo-desktop {
     height: 1rem;
     position: absolute;
     justify-self: anchor-center;
     align-self: anchor-center;
 }
 
+/* -- HERO -- */
 
+.singel-logos-desktop {
+    display: block;
+    position: relative;
+    top: 35vh;
+}
+
+.singel-logos-desktop img:first-child {
+    left: 2rem;
+    position: fixed;
+}
+
+.singel-logos-desktop img:last-child {
+    right: 2rem;
+    position: fixed;
+}
+
+.hero-container img {
+    display: none;
+}
 
     
 }

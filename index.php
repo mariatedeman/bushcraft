@@ -1,5 +1,10 @@
 <?php require_once __DIR__ . "/includes/header.php" ?>
 
+<span class="singel-logos-desktop">
+    <img src="assets/logo-singel-red-kin.svg" alt="">
+    <img src="assets/logo-singel-red-forma.svg" alt="">
+</span>
+
 <section class="hero">
     <div class="hero-container">
         <img src="assets/logotyp_text_symbol.png">
