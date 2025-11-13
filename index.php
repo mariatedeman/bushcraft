@@ -19,11 +19,13 @@
 <!-- MOBILE: CAROUSEL || DESKTOP: GALLERY -->
 <?php require_once __DIR__ . "/includes/news.php" ?>
 
-<!-- SIGN UP SECTION -->
+<!-- SIGN UP SECTION - KINKOLLEKTIVET -->
 <section class="img-background-signup">
     <div class="img-background-text">
-        <p class="subheading">Undertext</p>
-        <h2>TEXT</h2>
+        <h2>kinkollektivet</h2>
+        <p>Bli en del av sveriges största bush craft-kollektiv.
+            Köp och sälj begagnad utrustning,
+            diskutera spännande ämnen och dela dina bästa tips och råd.</p>
     </div>
     <div class="signup-container">
         <p class="subheading">Rubrik</p>

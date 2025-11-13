@@ -1,61 +1,96 @@
 @media screen and (min-width: 1200px) {
 
-header .icon-container {
-    display: none;
-}
+    h1, h2 {
+        font-size: 3.5rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
 
-header .icon-container-desktop {
-    width: 100vw;
-    height: 92px;
-    padding: 2rem;
+    header .icon-container {
+        display: none;
+    }
 
-    display: flex;
-    justify-content: space-between;    
-    align-items: center;
+    header .icon-container-desktop {
+        width: 100vw;
+        height: 92px;
+        padding: 2rem;
 
-    position: fixed;
-    background: white;
-    z-index: 99
-}
+        display: flex;
+        justify-content: space-between;    
+        align-items: center;
 
-header .icon-container-desktop div:nth-child(3) {
-    display: flex;
-    gap: 2rem;
-}
+        position: fixed;
+        background: white;
+        z-index: 99
+    }
 
-header .icon-container-desktop img {
-    height: 32px;  
-}
+    header .icon-container-desktop div:nth-child(3) {
+        display: flex;
+        gap: 2rem;
+    }
 
-header #logo-desktop {
-    height: 1rem;
-    position: absolute;
-    justify-self: anchor-center;
-    align-self: anchor-center;
-}
+    header .icon-container-desktop img {
+        height: 32px;  
+    }
 
-/* -- HERO -- */
+    header #logo-desktop {
+        height: 1rem;
+        position: absolute;
+        justify-self: anchor-center;
+        align-self: anchor-center;
+    }
 
-.singel-logos-desktop {
-    display: block;
-    position: relative;
-    top: 35vh;
-    z-index: 98;
-}
+    /* -- HERO -- */
 
-.singel-logos-desktop img:first-child {
-    left: 2rem;
-    position: fixed;
-}
+    .singel-logos-desktop {
+        display: block;
+        position: relative;
+        top: 35vh;
+        z-index: 98;
+    }
 
-.singel-logos-desktop img:last-child {
-    right: 2rem;
-    position: fixed;
-}
+    .singel-logos-desktop img:first-child {
+        left: 2rem;
+        position: fixed;
+    }
 
-.hero-container img {
-    display: none;
-}
+    .singel-logos-desktop img:last-child {
+        right: 2rem;
+        position: fixed;
+    }
 
+    .hero-container img {
+        display: none;
+    }
+
+    /* --- NEWS SECTION ---*/
+    .carousel {
+        display: none;
+    }
+
+    .gallery-desktop {
+        display: flex;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+
+    .gallery-desktop .card {
+        height: 520px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .gallery-desktop .card img {
+        width: 334px;
+        height: 440px;
+    }
+
+    .gallery-desktop p {
+        font-size: 1.1rem;
+    }
+
+    
     
 }

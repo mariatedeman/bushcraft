@@ -64,19 +64,22 @@
     display: none;
 }
 
+.gallery-desktop {
+    display: none;
+}
+
 
 /*--- KINTECH CAROUSEL ---*/
 
-.card-button {
+.carousel .card-button {
     position: relative;
 }
 
-.card-button .button-secondary {
+.carousel .card-button .button-secondary {
     position: absolute;
     top: 40%;
     left: 30%;
 }
-
 
 
 /* --- SIGNUP ---*/
@@ -110,6 +113,12 @@
     width: 280px;
     height: 44px;
     font-family: var(--body-font);
+}
+
+.img-background-text p {
+    text-align: center;
+    justify-self: center;
+    max-width: 85vw;
 }
 
 .img-background h2 {
