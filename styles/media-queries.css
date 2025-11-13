@@ -1,14 +1,40 @@
 @media screen and (min-width: 1200px) {
 
 header .icon-container {
-    align-items: center;
+    display: none;
 }
 
-header .icon-container .icon-box:nth-child(1) {
-    order: -2;
+header .icon-container-desktop {
+    width: 100vw;
+    height: 92px;
+    padding: 2rem;
+
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+
+    position: fixed;
+    background: white;
+    z-index: 99
 }
-header .icon-container .icon-box:nth-child(3) {
-    order: -1;
+
+header .icon-container-desktop div:nth-child(3) {
+    display: flex;
+    gap: 2rem;
 }
+
+header .icon-container-desktop img {
+    height: 32px;  
+}
+
+#logo-desktop {
+    height: 1rem;
+    position: absolute;
+    justify-self: anchor-center;
+    align-self: anchor-center;
+}
+
+
+
     
 }

@@ -79,6 +79,10 @@ header .icon-container {
     align-items: flex-end;
 }
 
+header .icon-container-desktop {
+    display: none;
+}
+
 .icon-box {
     height: 44px;
 
