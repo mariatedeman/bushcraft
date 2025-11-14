@@ -1,0 +1,147 @@
+
+/* --- HOME PAGE --- */
+
+.hero {
+    height: 80vh;
+    width: 100vw;
+    background-color: lightgrey;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-container {
+    height: 75%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hero-container img {
+    scale: 1;
+    transition: scale 1s;
+}
+
+.hero-container img:hover {
+    scale: 1.1;
+}
+
+.singel-logos-desktop {
+    display: none;
+}
+
+
+/* --- CAROUSEL -- */
+
+.carousel {
+    margin-left: 1rem;
+    margin-right: 0;
+    display: flex;
+    column-gap: 0.5rem;
+    width: 90vw;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+}
+
+.card {
+    height: 450px;
+    flex: 0 0 290px;
+    scroll-snap-align: start;
+    margin-bottom: 3rem;
+}
+
+.card img {
+    width: 100%;
+    height: 390px;
+    background-color: lightgray;
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.gallery-desktop {
+    display: none;
+}
+
+
+/*--- KINTECH CAROUSEL ---*/
+
+.card-button {
+    position: relative;
+}
+
+.card-button button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* --- SIGNUP ---*/
+
+.img-background, 
+.img-background-signup, 
+.img-background-chat {
+    background-color: lightgray;
+    height: 650px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.img-background-signup {
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 1rem;
+}
+
+.signup-container p {
+    text-align: left;
+}
+
+.signup-container input, 
+.signup-container button {
+    width: 280px;
+    height: 44px;
+    font-family: var(--body-font);
+    border: none;
+}
+
+.signup-container input {
+    padding-left: 0.5rem;
+    border-radius: 2px;
+}
+
+.img-background-text p {
+    text-align: center;
+    justify-self: center;
+    max-width: 85vw;
+}
+
+.img-background h2 {
+    margin-bottom: 1rem;
+}
+
+/* --- CHAT --- */
+
+.buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 5rem;
+}
