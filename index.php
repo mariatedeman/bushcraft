@@ -31,7 +31,8 @@
     <div class="signup-container">
         <p class="subheading">Bli medlem/ Logga in</p>
         <p>Mejladress</p>
-        <input type="text" placeholder="emil.emilsson@gmail.com">
+        <!-- TODO: Add input security in seperate file --->
+        <?php require_once __DIR__ . "/includes/input.php" ?>
         <button class="button-primary">Skicka verifieringskod</button>
     </div>
 
