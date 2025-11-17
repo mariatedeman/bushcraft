@@ -1,0 +1,257 @@
+:root {
+    --primary-dark: rgb(36 11 11);
+    --hover-dark: rgb(96 77 77);
+    --primary-light: rgb(246 245 242);
+    --hover-light: rgb(229 227 221);
+    --secondary: rgb(74 84 40);
+    --secondary-hover: rgb(132 138 110);
+    --accent: rgb(202 14 14);
+    --pressed: ;
+    --heading-font: Lexend Exa;
+    --body-font: IBM Plex Mono;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    position: relative;
+}
+
+/* --- FONTS ---*/
+
+h1, h2 {
+    font-family: var(--heading-font);
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    
+    margin: 2rem;
+}
+
+h3 {
+    font-family: var(--heading-font);
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.product-text {
+    font-size: 18px;
+    max-width: 60%;
+}
+
+p, .body-bold {
+    font-family: var(--body-font);
+}
+
+.subheading {
+    font-family: var(--body-font);
+    font-weight: 600;
+    text-align: center;
+    margin: 1rem 0 1rem 0;
+}
+
+.body-bold {
+    font-weight: 600;
+}
+
+/* --- LINKS AND BUTTONS ---*/
+
+.button-primary {
+    border: none;
+    border-radius: 2px;
+    height: 44px;
+    padding: 10px 30px 10px 30px;
+
+    background: var(--primary-dark);
+    color: var(--primary-light);
+    font-family:var(--body-font);
+}
+
+.button-secondary {
+    border: none;
+    border-radius: 2px;
+    height: 44px;
+    padding: 10px 30px 10px 30px;
+    background: #ffffff;
+
+    font-family:var(--body-font);
+}
+
+/* --- PRODUCT POPUP --- */
+
+#product-popup {
+    display: block;
+
+    height: 100vh;
+    width: 100vw;
+}
+
+#product-popup p {
+    text-align: left;
+}
+
+/* --- PRODUCT POPUP IMG CONTAINER --- */
+.product-popup-img-container {
+    background-color: lightgray;
+    height: 393px;
+    width: 393px;
+
+    position: relative;
+}
+
+.product-popup-heading-star {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-popup-img-count {
+    display: flex;
+    gap: 0.4rem;
+
+    position: absolute;
+    bottom: 1.5rem;
+    justify-self: anchor-center;
+}
+
+.product-popup-img-count div {
+    height: 10px;
+    width: 10px;
+    background-color: var(--primary-dark);
+    border-radius: 50%;
+}
+
+#product-popup-img-count-active {
+    width: 30px;
+    border-radius: 5px;
+}
+
+.product-popup-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: rotate(45deg);
+}
+
+/* --- HEADING AND STAR SECTION --- */
+.product-popup-heading-star {
+    margin: 0rem 1.5rem;
+ }
+
+.product-popup-heading-star p {
+    margin-bottom: 0.5rem;
+ }
+
+.product-popup-heading-star div:first-child {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-popup-heading-star div:last-child {
+    display: flex;
+    align-items: center;
+}
+
+.product-popup-heading-star div:last-child p {
+    margin: 0;
+}
+
+/* --- DESCRIPTION AND COLORS --- */
+.product-popup-price-color-description {
+    margin:1rem 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.product-popup-colors {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.product-popup-color {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.product-popup-color-red {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+
+    background-color: rgb(188, 20, 20);
+}
+
+.product-popup-color-black {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+
+    background-color: black;
+}
+
+.product-popup-color-green {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+
+    background-color: rgb(46, 99, 46);
+}
+
+.product-popup-description {
+    margin-top: -1.5rem;
+}
+
+/* --- SIZE, AMOUNT, ADD TO CART --- */
+.product-popup-size-amount-section {
+    margin: 2rem 1.5rem;
+}
+
+.product-popup-size-amount-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-popup-size-amount-choices {
+    display: flex;
+    gap: 2.5rem;
+
+    margin: 0.5rem 0rem;
+}
+
+.product-popup-addtocart {
+    justify-self: right;
+    margin: 1rem 0rem;
+}
+
+/* --- COMMUNITY ---*/
+.product-popup-community-section {
+    margin: 3rem 1.5rem;
+}
+
+form input {
+    width: 345px;
+    height: 125px;
+    margin-top: 1.5rem;
+
+    border: none;
+    background-color: var(--hover-light);
+    font-family: var(--body-font);
+}
+
+form button {
+    margin-top: 1rem;
+    float: right;
+}
