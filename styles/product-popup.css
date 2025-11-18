@@ -1,3 +1,78 @@
+.card {
+    background-color: gray;
+}
+
+:root {
+    --primary-dark: rgb(36 11 11);
+    --hover-dark: rgb(96 77 77);
+    --primary-light: rgb(246 245 242);
+    --hover-light: rgb(229 227 221);
+    --secondary: rgb(74 84 40);
+    --secondary-hover: rgb(132 138 110);
+    --accent: rgb(202 14 14);
+    --pressed: ;
+    --heading-font: Lexend Exa;
+    --body-font: IBM Plex Mono;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+}
+
+/* --- FONTS ---*/
+
+h1, h2 {
+    font-family: var(--heading-font);
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    
+    margin: 2rem;
+}
+
+p, .body-bold {
+    font-family: var(--body-font);
+}
+
+.subheading {
+    font-family: var(--body-font);
+    font-weight: 600;
+    text-align: center;
+    margin: 1rem 0 1rem 0;
+}
+
+.body-bold {
+    font-weight: 600;
+}
+
+/* --- LINKS AND BUTTONS ---*/
+
+.button-primary {
+    border: none;
+    border-radius: 2px;
+    height: 44px;
+    padding: 10px 30px 10px 30px;
+
+    background: var(--primary-dark);
+    color: var(--primary-light);
+    font-family:var(--body-font);
+}
+
+.button-secondary {
+    border: none;
+    border-radius: 2px;
+    height: 44px;
+    padding: 10px 30px 10px 30px;
+    background: #ffffff;
+
+    font-family:var(--body-font);
+}
+
 /* --- PRODUCT POPUP --- */
 
 #product-popup {
@@ -12,18 +87,41 @@
 }
 
 /* --- PRODUCT POPUP IMG CONTAINER --- */
+.product-popup-img-carousel .carousel {
+    width: 100vw;
+    height: 393px;
+    overflow-y: hidden;
+}
+
+.product-popup-img-carousel section {
+    display: flex;
+    margin: 0;
+}
+
+.product-popup-img-carousel .card {
+    height: 450px;
+    flex: 0 0 100vw;
+}
+
+.product-popup-img-carousel .card img {
+    height: auto;
+}
+
 .product-popup-img-container {
-    background-color: lightgray;
+    display: none;
+
     height: 393px;
     width: 393px;
 
     position: relative;
 }
 
-.product-popup-heading-star {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.product-popup-img-container section {
+    display: none;
+}
+
+.product-popup-img-active {
+    height: 100%;
 }
 
 .product-popup-img-count {
@@ -31,7 +129,7 @@
     gap: 0.4rem;
 
     position: absolute;
-    bottom: 1.5rem;
+    top: 22rem;
     justify-self: anchor-center;
 }
 
@@ -52,16 +150,23 @@
     right: 0;
     top: 0;
     transform: rotate(45deg);
+    z-index: 99;
 }
 
 /* --- HEADING AND STAR SECTION --- */
 .product-popup-heading-star {
     margin: 0rem 1.5rem;
  }
+ 
+.product-popup-heading-star {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
 
 .product-popup-heading-star p {
     margin-bottom: 0.5rem;
- }
+}
 
 .product-popup-heading-star div:first-child {
     display: flex;
@@ -143,13 +248,14 @@
 }
 
 .product-popup-addtocart {
-    justify-self: right;
+    float: right;
     margin: 1rem 0rem;
+    padding: 0px 41px;
 }
 
 /* --- COMMUNITY ---*/
 .product-popup-community-section {
-    margin: 3rem 1.5rem;
+    margin: 5rem 1.5rem;
 }
 
 form input {
@@ -171,35 +277,141 @@ form button {
 @media screen and (min-width: 1200px) {
 
     #product-popup {
-        height: 903px;
+        height: 954px;
         width: 1256px;
         place-self: anchor-center;
 
         border: 2px solid black;
     }
 
-    #product-popup span {
+    .product-popup-container {
         margin: 3rem;
+        position: relative;
 
         display: grid;
-        grid-template-columns: repeat(2, 475px);
+        grid-template-columns: repeat(2, 540px);
         justify-content: center;
-        align-items: start;
+        align-items: flex-start;
+        justify-items: center;
+    }
+
+    .product-popup-close {
+        right: 3rem;
+        top: 0.5rem;
+    }
+
+    /* --- IMG CONTAINER --- */
+
+    .product-popup-img-carousel {
+        display: none;
     }
 
     .product-popup-img-container {
+        width: 540px;
+        height: 540px;
+
+        display: grid;
         grid-column: 1 / 2;
+        grid-row: 1 / 3;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 1rem;
     }
+
+    .product-popup-img-container section {
+        display: flex;
+        gap: 1rem;
+
+        grid-row: 2 / 3;
+        grid-column: 1 / 3;
+    }
+
+    .product-popup-img-container .product-popup-img-active {
+        width: 500px;
+        height: 500px;
+
+        grid-column: 1 / 3;
+        grid-row: 1 / 2;
+        background: lightgray;
+    }
+
+    .product-popup-img-count div {
+        display: none;
+    }
+
+    .product-popup-img-container section img {
+        height: 243px;
+        width: 243px;
+        background-color: var(--hover-light);
+        
+        display: flex;
+    }
+
+    /* --- HEADING, RATING, DESCRIPTION --- */
+
+    .product-popup-heading-star {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .product-popup-heading-star img {
+        width: 50%;
+    }
+
+    .product-popup-heading-star .subheading {
+        font-family: var(--heading-font);
+        text-transform: uppercase;
+        font-weight: 400;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    /* --- COLORS, SIZE, AMOUNT --- */
 
     .product-popup-choice-community-grid {
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
 
         grid-column: 2 / 3;
     }
 
+    .product-popup-price-color-description p:first-child {
+        margin-top: 3.5rem;
+        order: 1;
+    }
+
     .product-popup-colors {
         order: 1;
+    }
+
+    .product-popup-size-amount-section {
+        margin: 0.5rem 1.5rem;
+    }
+    
+    .product-popup-size-amount-section span {
+        display: flex;
+        gap: 3rem;
+    }
+    
+    .product-popup-size-amount-container {
+        justify-content: flex-start;
+        gap: 3rem;
+    }
+
+
+    .product-popup-size-amount-choices {
+        gap: 1.5rem;
+    }
+
+    /* --- COMMUNITY --- */
+
+    .product-popup-community-section {
+        margin: 0rem 1.5rem;
+    }
+
+    #product-popup form input {
+        width: 100%;
     }
 
 }

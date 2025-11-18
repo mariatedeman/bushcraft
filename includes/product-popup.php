@@ -7,6 +7,7 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="/styles/product-popup.css">
+    <link rel="stylesheet" href="/styles/carousel.css">
 
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,17 +19,47 @@
 <body>
 
     <article id="product-popup">
-        <span>
-            <!-- IMG CONTAINER -->
+        <span class="product-popup-container">
+            <a href="#" class="product-popup-close"><img src="/assets/plus.svg"></a>
+
+            <!-- MOBILE: IMG CAROUSEL -->
+            <section class="product-popup-img-carousel">
+
+                <div class="product-popup-img-count">
+                    <div id="product-popup-img-count-active"></div>
+                    <div></div>
+                    <div></div>
+                </div>
+
+                <section class="carousel">
+                    <div class="card">
+                        <img src="/assets/Rectangle-24.png">
+                    </div>
+
+                    <div class="card">
+                        <img src="">
+                    </div>
+
+                    <div class="card">
+                        <img src="">
+                    </div>
+                </section>
+            </section>
+
+            <!-- DESKTOP: IMG CONTAINER -->
             <section class="product-popup-img-container">
-                <img src="" alt="">
-                <a href="#"><img class="product-popup-close" src="assets/plus.svg"></a>
+                <img class="product-popup-img-active" src="/assets/Rectangle-24.png" alt="">
+                <section>
+                    <img src="" alt="">
+                    <img src="" alt="">
+                </section>
                 <div class="product-popup-img-count">
                     <div id="product-popup-img-count-active"></div>
                     <div></div>
                     <div></div>
                 </div>
             </section>
+
 
             <!-- HEADING AND STAR SECTION -->
             <div>
@@ -40,14 +71,14 @@
                     </div>
                     <div>
                         <p>x.x</p>
-                        <img src="assets/star.svg" alt="">
+                        <img src="/assets/star.svg" alt="">
                         <p>(x)</p>
                     </div>
                 </section>
 
                 <!-- PRICE, COLOR, DESCRIPTION -->
                 <section class="product-popup-price-color-description">
-                    <!-- <p>Färg</p> -->
+                    <p>Färg</p>
                     <div class="product-popup-colors">
                         <div class="product-popup-color product-popup-color-red"></div>
                         <div class="product-popup-color product-popup-color-black"></div>
@@ -90,7 +121,8 @@
                             </div>
                         </div>
 
-                        <p class="product-popup-addtocart">Lägg till i varukorg</p>
+                        <a><button class="button-primary product-popup-addtocart">Köp</button></a>
+
                     </span>
                 </section>
 
