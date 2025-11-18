@@ -47,10 +47,11 @@
             <h2>Kinchatten</h2>
         </div>
         <div class="buttons-container">
-            <button class="button-primary">Button</button>
-            <button class="button-primary">Button</button>
-            <button class="button-primary">Button</button>
-            <button class="button-primary">Button</button>
+            <button class="button-secondary">Button</button>
+            <button class="button-secondary">Button</button>
+            <button class="button-secondary">Button</button>
+            <button class="button-secondary">Button</button>
+
         </div>
     </div>
 </section>

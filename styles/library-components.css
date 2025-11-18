@@ -57,6 +57,13 @@ p, .body-bold {
     background: var(--primary-dark);
     color: var(--primary-light);
     font-family:var(--body-font);
+
+    transform: background;
+}
+
+.button-primary:hover {
+    transition: 0.3s;
+    background: var(--hover-dark);
 }
 
 .button-secondary {
@@ -64,9 +71,17 @@ p, .body-bold {
     border-radius: 2px;
     height: 44px;
     padding: 10px 30px 10px 30px;
-    background: #ffffff;
-
+    
+    background: var(--primary-light);
+    color: var(--primary-dark);
     font-family:var(--body-font);
+
+    transform: background;
+}
+
+.button-secondary:hover {
+    transition: 0.3s;
+    background: var(--hover-light);
 }
 
 
