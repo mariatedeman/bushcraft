@@ -15,6 +15,8 @@
     </div>
 </section>
 
+<?php require_once __DIR__ . "/includes/product-popup.php" ?>
+
 <h2>Nyheter</h2>
 <!-- MOBILE: CAROUSEL || DESKTOP: GALLERY -->
 <?php require_once __DIR__ . "/includes/news.php" ?>

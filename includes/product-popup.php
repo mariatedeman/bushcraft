@@ -1,149 +1,119 @@
-<!DOCTYPE html>
-<html lang="en">
+<article id="product-popup">
+    <span class="product-popup-container">
+        <a href="#" class="product-popup-close"><img src="/assets/plus.svg"></a>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+        <!-- MOBILE: IMG CAROUSEL -->
+        <section class="product-popup-img-carousel">
 
-    <link rel="stylesheet" href="/styles/product-popup.css">
-    <link rel="stylesheet" href="/styles/carousel.css">
-
-    <!-- FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lexend+Exa:wght@100..900&display=swap" rel="stylesheet">
-
-</head>
-
-<body>
-
-    <article id="product-popup">
-        <span class="product-popup-container">
-            <a href="#" class="product-popup-close"><img src="/assets/plus.svg"></a>
-
-            <!-- MOBILE: IMG CAROUSEL -->
-            <section class="product-popup-img-carousel">
-
-                <div class="product-popup-img-count">
-                    <div id="product-popup-img-count-active"></div>
-                    <div></div>
-                    <div></div>
+            <section class="carousel">
+                <div class="card">
+                    <img src="/assets/Rectangle-24.png">
                 </div>
 
-                <section class="carousel">
-                    <div class="card">
-                        <img src="/assets/Rectangle-24.png">
-                    </div>
+                <div class="card">
+                    <img src="/assets/Rectangle-24.png">
+                </div>
 
-                    <div class="card">
-                        <img src="">
-                    </div>
-
-                    <div class="card">
-                        <img src="">
-                    </div>
-                </section>
-            </section>
-
-            <!-- DESKTOP: IMG CONTAINER -->
-            <section class="product-popup-img-container">
-                <img class="product-popup-img-active" src="/assets/Rectangle-24.png" alt="">
-                <section>
-                    <img src="" alt="">
-                    <img src="" alt="">
-                </section>
-                <div class="product-popup-img-count">
-                    <div id="product-popup-img-count-active"></div>
-                    <div></div>
-                    <div></div>
+                <div class="card">
+                    <img src="/assets/Rectangle-24.png">
                 </div>
             </section>
+        </section>
 
-
-            <!-- HEADING AND STAR SECTION -->
-            <div>
-
-                <section class="product-popup-heading-star">
-                    <div>
-                        <p class="subheading">Produktnamn</p>
-                        <p>Pris SEK</p>
-                    </div>
-                    <div>
-                        <p>x.x</p>
-                        <img src="/assets/star.svg" alt="">
-                        <p>(x)</p>
-                    </div>
-                </section>
-
-                <!-- PRICE, COLOR, DESCRIPTION -->
-                <section class="product-popup-price-color-description">
-                    <p>Färg</p>
-                    <div class="product-popup-colors">
-                        <div class="product-popup-color product-popup-color-red"></div>
-                        <div class="product-popup-color product-popup-color-black"></div>
-                        <div class="product-popup-color product-popup-color-green"></div>
-                    </div>
-                    <p class="subheading">Beskrivning</p>
-                    <p class="product-popup-description">Moodboards ser liknande ut och vi har samma
-                        uppfattning om brand och look: avskalat,
-                        “höstfärger” med grönt som primärfärg,
-                        gärna en accentfärg (orange, röd och gul nämns),
-                        funktion viktig att lyfta, smart och kompakt design
-                        i produkter, naturmaterial främst.</p>
-                </section>
-
+        <!-- DESKTOP: IMG CONTAINER -->
+        <section class="product-popup-img-container">
+            <img class="product-popup-img-active" src="/assets/Rectangle-24.png" alt="">
+            <section>
+                <img src="" alt="">
+                <img src="" alt="">
+            </section>
+            <div class="product-popup-img-count">
+                <div id="product-popup-img-count-active"></div>
+                <div></div>
+                <div></div>
             </div>
+        </section>
 
-            <!-- SIZE, AMOUNT, ADD TO CART -->
-            <div class="product-popup-choice-community-grid">
 
-                <section class="product-popup-size-amount-section">
-                    <span>
+        <!-- HEADING AND STAR SECTION -->
+        <div>
 
-                        <div class="product-popup-size-amount-container">
-                            <div>
-                                <p>Storlek</p>
-                                <div class="product-popup-size-amount-choices">
-                                    <p>S</p>
-                                    <p>M</p>
-                                    <p>L</p>
-                                </div>
-                            </div>
+            <section class="product-popup-heading-star">
+                <div>
+                    <p class="subheading">Produktnamn</p>
+                    <p>Pris SEK</p>
+                </div>
+                <div>
+                    <p>x.x</p>
+                    <img src="/assets/star.svg" alt="">
+                    <p>(x)</p>
+                </div>
+            </section>
 
-                            <div>
-                                <p>Antal</p>
-                                <div class="product-popup-size-amount-choices">
-                                    <p>1</p>
-                                    <p>2</p>
-                                    <p>3</p>
-                                </div>
+            <!-- PRICE, COLOR, DESCRIPTION -->
+            <section class="product-popup-price-color-description">
+                <p>Färg</p>
+                <div class="product-popup-colors">
+                    <div class="product-popup-color product-popup-color-red"></div>
+                    <div class="product-popup-color product-popup-color-black"></div>
+                    <div class="product-popup-color product-popup-color-green"></div>
+                </div>
+                <p class="subheading">Beskrivning</p>
+                <p class="product-popup-description">Moodboards ser liknande ut och vi har samma
+                    uppfattning om brand och look: avskalat,
+                    “höstfärger” med grönt som primärfärg,
+                    gärna en accentfärg (orange, röd och gul nämns),
+                    funktion viktig att lyfta, smart och kompakt design
+                    i produkter, naturmaterial främst.</p>
+            </section>
+
+        </div>
+
+        <!-- SIZE, AMOUNT, ADD TO CART -->
+        <div class="product-popup-choice-community-grid">
+
+            <section class="product-popup-size-amount-section">
+                <span>
+
+                    <div class="product-popup-size-amount-container">
+                        <div>
+                            <p>Storlek</p>
+                            <div class="product-popup-size-amount-choices">
+                                <p>S</p>
+                                <p>M</p>
+                                <p>L</p>
                             </div>
                         </div>
 
-                        <a><button class="button-primary product-popup-addtocart">Köp</button></a>
-
-                    </span>
-                </section>
-
-                <!-- COMMUNITY -->
-                <section class="product-popup-community-section">
-                    <div>
-                        <p class="subheading">Ställ en fråga</p>
-                        <p>Har du en fråga om den här produkten?
-                            Ställ den här så svarar någon av våra
-                            medlemmar i kinkollektivet.</p>
-                        <form>
-                            <input type="text" placeholder="Jag undrar om...">
-                            <button class="button-primary">Skicka</button>
-                        </form>
-
+                        <div>
+                            <p>Antal</p>
+                            <div class="product-popup-size-amount-choices">
+                                <p>1</p>
+                                <p>2</p>
+                                <p>3</p>
+                            </div>
+                        </div>
                     </div>
-                </section>
-            </div>
-        </span>
-    </article>
 
-</body>
+                    <a><button class="button-primary product-popup-addtocart">Köp</button></a>
 
-</html>
+                </span>
+            </section>
+
+            <!-- COMMUNITY -->
+            <section class="product-popup-community-section">
+                <div>
+                    <p class="subheading">Ställ en fråga</p>
+                    <p>Har du en fråga om den här produkten?
+                        Ställ den här så svarar någon av våra
+                        medlemmar i kinkollektivet.</p>
+                    <form>
+                        <input type="text" placeholder="Jag undrar om...">
+                        <button class="button-primary">Skicka</button>
+                    </form>
+
+                </div>
+            </section>
+        </div>
+    </span>
+</article>

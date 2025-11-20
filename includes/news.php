@@ -2,11 +2,13 @@
 
 <section class="carousel">
     <div class="card">
-        <img src="">
-        <div class="card-text">
-            <p><strong>Produktnamn</strong> <br>
-                Pris</p>
-        </div>
+        <a href="#product-popup">
+            <img src="">
+            <div class="card-text">
+                <p><strong>Produktnamn</strong> <br>
+                    Pris</p>
+            </div>
+        </a>
     </div>
 
     <div class="card">
@@ -30,41 +32,7 @@
                 Pris</p>
         </div>
     </div>
-    <div class="card">
-        <img src="">
-        <div class="card-text">
-            <p><strong>Produktnamn</strong> <br>
-                Pris</p>
-        </div>
-    </div>
-    <div class="card">
-        <img src="">
-        <div class="card-text">
-            <p><strong>Produktnamn</strong> <br>
-                Pris</p>
-        </div>
-    </div>
-    <div class="card">
-        <img src="">
-        <div class="card-text">
-            <p><strong>Produktnamn</strong> <br>
-                Pris</p>
-        </div>
-    </div>
-    <div class="card">
-        <img src="">
-        <div class="card-text">
-            <p><strong>Produktnamn</strong> <br>
-                Pris</p>
-        </div>
-    </div>
-    <div class="card">
-        <img src="">
-        <div class="card-text">
-            <p><strong>Produktnamn</strong> <br>
-                Pris</p>
-        </div>
-    </div>
+
 </section>
 
 
@@ -72,11 +40,13 @@
 <section class="gallery-desktop">
 
     <div class="card">
-        <img src="">
-        <div class="card-text">
-            <p><strong>Produktnamn</strong> <br>
-                Pris</p>
-        </div>
+        <a href="#product-popup">
+            <img src="">
+            <div class="card-text">
+                <p><strong>Produktnamn</strong> <br>
+                    Pris</p>
+            </div>
+        </a>
     </div>
 
     <div class="card">

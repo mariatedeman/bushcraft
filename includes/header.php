@@ -7,6 +7,7 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="styles/library-components.css">
+    <link rel="stylesheet" href="/styles/product-popup.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/media-queries.css">
 
