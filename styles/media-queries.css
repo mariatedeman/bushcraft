@@ -46,9 +46,9 @@
 
     /* -- LINKS & BUTTONS -- */
 
-    a:hover img {
+    /* a:hover img {
         transition: scale 1.1;
-    }
+    } */
 
     /* -- HERO -- */
 
@@ -140,16 +140,36 @@
         scale: 1.05;
     }
 
-    /* --- CHAT --- */
+    /* --- KINTECH --- */
 
-    .gallery-desktop .card-button {
+    .gallery-desktop-kintech {
+        display: flex;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+
+    .gallery-desktop-kintech .card-button {
         height: 676px;
         width: 676px;
     }
 
-    .gallery-desktop .card-button img {
+    .gallery-desktop-kintech .card-img-container {
         width: 676px;
         height: 100%;
+
+        background-color: white;
+        contain: content;
+    }
+
+    .gallery-desktop-kintech .card-button img {
+        width: 100%;
+        object-fit: cover;
+        scale: 1;
+        transition: scale 1s;
+    }
+
+    .gallery-desktop-kintech .card-button img:hover {
+        scale: 1.05;
     }
 
     .card-button button {

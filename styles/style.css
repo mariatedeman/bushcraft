@@ -74,7 +74,8 @@
     display: none;
 }
 
-.gallery-desktop {
+.gallery-desktop,
+.gallery-desktop-kintech {
     display: none;
 }
 
@@ -83,11 +84,12 @@
 
 .card-button {
     position: relative;
+    height: 475px;
 }
 
 .card-button button {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
