@@ -2,69 +2,45 @@
 
 <section class="carousel">
     <div class="card">
-        <img src="">
+        <a href="#product-popup">
+            <div class="card-img-container">
+                <img src="/assets/VATTENFLASKA_produkt_1_1080x1080.png">
+            </div>
+            <div class="card-text">
+                <p><strong>Produktnamn</strong> <br>
+                    Pris</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="card">
+        <div class="card-img-container">
+            <img src="/assets/VATTENFLASKA_produkt_1_1080x1080.png">
+        </div>
+        <div class="card-text">
+            <p><strong>Produktnamn</strong> <br>
+                Pris</p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-img-container">
+            <img src="/assets/VATTENFLASKA_produkt_1_1080x1080.png">
+        </div>
+        <div class="card-text">
+            <p><strong>Produktnamn</strong> <br>
+                Pris</p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-img-container">
+            <img src="/assets/VATTENFLASKA_produkt_1_1080x1080.png">
+        </div>
         <div class="card-text">
             <p><strong>Produktnamn</strong> <br>
                 Pris</p>
         </div>
     </div>
 
-    <div class="card">
-        <img src="">
-        <div class="card-text">
-            <p><strong>Produktnamn</strong> <br>
-                Pris</p>
-        </div>
-    </div>
-    <div class="card">
-        <img src="">
-        <div class="card-text">
-            <p><strong>Produktnamn</strong> <br>
-                Pris</p>
-        </div>
-    </div>
-    <div class="card">
-        <img src="">
-        <div class="card-text">
-            <p><strong>Produktnamn</strong> <br>
-                Pris</p>
-        </div>
-    </div>
-    <div class="card">
-        <img src="">
-        <div class="card-text">
-            <p><strong>Produktnamn</strong> <br>
-                Pris</p>
-        </div>
-    </div>
-    <div class="card">
-        <img src="">
-        <div class="card-text">
-            <p><strong>Produktnamn</strong> <br>
-                Pris</p>
-        </div>
-    </div>
-    <div class="card">
-        <img src="">
-        <div class="card-text">
-            <p><strong>Produktnamn</strong> <br>
-                Pris</p>
-        </div>
-    </div>
-    <div class="card">
-        <img src="">
-        <div class="card-text">
-            <p><strong>Produktnamn</strong> <br>
-                Pris</p>
-        </div>
-    </div>
-    <div class="card">
-        <img src="">
-        <div class="card-text">
-            <p><strong>Produktnamn</strong> <br>
-                Pris</p>
-        </div>
-    </div>
 </section>
 
 
@@ -72,7 +48,21 @@
 <section class="gallery-desktop">
 
     <div class="card">
-        <img src="">
+        <a href="#product-popup">
+            <div class="card-img-container">
+                <img src="/assets/VATTENFLASKA_produkt_1_1080x1080.png">
+            </div>
+            <div class="card-text">
+                <p><strong>Produktnamn</strong> <br>
+                    Pris</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="card">
+        <div class="card-img-container">
+            <img src="/assets/VATTENFLASKA_produkt_1_1080x1080.png">
+        </div>
         <div class="card-text">
             <p><strong>Produktnamn</strong> <br>
                 Pris</p>
@@ -80,7 +70,9 @@
     </div>
 
     <div class="card">
-        <img src="">
+        <div class="card-img-container">
+            <img src="/assets/VATTENFLASKA_produkt_1_1080x1080.png">
+        </div>
         <div class="card-text">
             <p><strong>Produktnamn</strong> <br>
                 Pris</p>
@@ -88,15 +80,9 @@
     </div>
 
     <div class="card">
-        <img src="">
-        <div class="card-text">
-            <p><strong>Produktnamn</strong> <br>
-                Pris</p>
+        <div class="card-img-container">
+            <img src="/assets/VATTENFLASKA_produkt_1_1080x1080.png">
         </div>
-    </div>
-
-    <div class="card">
-        <img src="">
         <div class="card-text">
             <p><strong>Produktnamn</strong> <br>
                 Pris</p>

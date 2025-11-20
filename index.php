@@ -15,6 +15,8 @@
     </div>
 </section>
 
+<?php require_once __DIR__ . "/includes/product-popup.php" ?>
+
 <h2>Nyheter</h2>
 <!-- MOBILE: CAROUSEL || DESKTOP: GALLERY -->
 <?php require_once __DIR__ . "/includes/news.php" ?>
@@ -47,10 +49,11 @@
             <h2>Kinchatten</h2>
         </div>
         <div class="buttons-container">
-            <button class="button-primary">Button</button>
-            <button class="button-primary">Button</button>
-            <button class="button-primary">Button</button>
-            <button class="button-primary">Button</button>
+            <button class="button-secondary">Button</button>
+            <button class="button-secondary">Button</button>
+            <button class="button-secondary">Button</button>
+            <button class="button-secondary">Button</button>
+
         </div>
     </div>
 </section>

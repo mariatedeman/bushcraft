@@ -18,6 +18,7 @@
 
 body {
     font-size: 16px;
+    background-color: var(--primary-light);
 }
 
 /* --- FONTS ---*/
@@ -48,6 +49,13 @@ p, .body-bold {
 
 /* --- LINKS AND BUTTONS ---*/
 
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--primary-dark);
+}
+
+
 .button-primary {
     border: none;
     border-radius: 2px;
@@ -57,6 +65,13 @@ p, .body-bold {
     background: var(--primary-dark);
     color: var(--primary-light);
     font-family:var(--body-font);
+    cursor: pointer;
+
+    transition: background-color 0.3s ease-in;
+}
+
+.button-primary:hover {
+    background: var(--hover-dark);
 }
 
 .button-secondary {
@@ -64,9 +79,17 @@ p, .body-bold {
     border-radius: 2px;
     height: 44px;
     padding: 10px 30px 10px 30px;
-    background: #ffffff;
-
+    
+    background-color: var(--primary-light);
+    color: var(--primary-dark);
     font-family:var(--body-font);
+    cursor: pointer;
+
+    transition: background-color 0.3s ease-in;
+}
+
+.button-secondary:hover {
+    background-color: var(--hover-light);
 }
 
 
