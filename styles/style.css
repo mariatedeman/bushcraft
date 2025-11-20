@@ -54,10 +54,20 @@
     margin-bottom: 3rem;
 }
 
-.card img {
-    width: 100%;
+.card-img-container {
     height: 390px;
-    background-color: lightgray;
+    width: 290px;
+    background-color: white;
+    margin-bottom: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.card img {
+    contain: content;
+    height: 100%;
 }
 
 .carousel::-webkit-scrollbar {

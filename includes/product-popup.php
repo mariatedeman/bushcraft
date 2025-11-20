@@ -79,7 +79,9 @@
                         <div>
                             <p>Storlek</p>
                             <div class="product-popup-size-amount-choices">
-                                <p>S</p>
+                                <a href="#product-popup">
+                                    <p>S</p>
+                                </a>
                                 <p>M</p>
                                 <p>L</p>
                             </div>

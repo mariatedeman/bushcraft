@@ -3,7 +3,9 @@
 <section class="carousel">
     <div class="card">
         <a href="#product-popup">
-            <img src="">
+            <div class="card-img-container">
+                <img src="/assets/VATTENFLASKA_produkt_1_1080x1080.png">
+            </div>
             <div class="card-text">
                 <p><strong>Produktnamn</strong> <br>
                     Pris</p>
@@ -12,21 +14,27 @@
     </div>
 
     <div class="card">
-        <img src="">
+        <div class="card-img-container">
+            <img src="/assets/VATTENFLASKA_produkt_1_1080x1080.png">
+        </div>
         <div class="card-text">
             <p><strong>Produktnamn</strong> <br>
                 Pris</p>
         </div>
     </div>
     <div class="card">
-        <img src="">
+        <div class="card-img-container">
+            <img src="/assets/VATTENFLASKA_produkt_1_1080x1080.png">
+        </div>
         <div class="card-text">
             <p><strong>Produktnamn</strong> <br>
                 Pris</p>
         </div>
     </div>
     <div class="card">
-        <img src="">
+        <div class="card-img-container">
+            <img src="/assets/VATTENFLASKA_produkt_1_1080x1080.png">
+        </div>
         <div class="card-text">
             <p><strong>Produktnamn</strong> <br>
                 Pris</p>
@@ -41,7 +49,9 @@
 
     <div class="card">
         <a href="#product-popup">
-            <img src="">
+            <div class="card-img-container">
+                <img src="/assets/VATTENFLASKA_produkt_1_1080x1080.png">
+            </div>
             <div class="card-text">
                 <p><strong>Produktnamn</strong> <br>
                     Pris</p>
@@ -50,7 +60,9 @@
     </div>
 
     <div class="card">
-        <img src="">
+        <div class="card-img-container">
+            <img src="/assets/VATTENFLASKA_produkt_1_1080x1080.png">
+        </div>
         <div class="card-text">
             <p><strong>Produktnamn</strong> <br>
                 Pris</p>
@@ -58,7 +70,9 @@
     </div>
 
     <div class="card">
-        <img src="">
+        <div class="card-img-container">
+            <img src="/assets/VATTENFLASKA_produkt_1_1080x1080.png">
+        </div>
         <div class="card-text">
             <p><strong>Produktnamn</strong> <br>
                 Pris</p>
@@ -66,7 +80,9 @@
     </div>
 
     <div class="card">
-        <img src="">
+        <div class="card-img-container">
+            <img src="/assets/VATTENFLASKA_produkt_1_1080x1080.png">
+        </div>
         <div class="card-text">
             <p><strong>Produktnamn</strong> <br>
                 Pris</p>
