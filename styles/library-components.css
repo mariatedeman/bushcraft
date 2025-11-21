@@ -98,6 +98,10 @@ a:hover {
 
 /* --- HEADER --- */
 
+header {
+    width: 100vw;
+}
+
 header .icon-container {
     width: 100%;
     height: 92px;
@@ -120,6 +124,58 @@ header .icon-container-desktop {
 
 .logo-mobile {
     height: 11px;
+}
+
+/* --- MOBILE MENU --- */
+.menu-container-mobile {
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    top: 92px;
+    text-align: left;
+    z-index: 99;
+
+    display: none;
+}
+
+.menu-container-desktop {
+    display: none;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    background-color: var(--primary-light);
+}
+
+.menu-close {
+    transform: rotate(45deg);
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.menu-icons {
+    display: flex;
+    gap: 1rem;
+}
+
+#menu-open,
+#menu-open-desktop {
+    display: none;
+}
+
+#menu-open:checked + .menu-container-mobile {
+    display: block;
 }
 
 /* --- FOOTER ---*/
