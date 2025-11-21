@@ -32,7 +32,7 @@ h1, h2 {
     margin: 2rem;
 }
 
-p, .body-bold {
+p, .body-bold, a {
     font-family: var(--body-font);
 }
 
@@ -55,6 +55,9 @@ a {
     color: var(--primary-dark);
 }
 
+a:hover {
+    font-weight: 600;
+}
 
 .button-primary {
     border: none;
@@ -115,6 +118,9 @@ header .icon-container-desktop {
     align-items: center;
 }
 
+.logo-mobile {
+    height: 11px;
+}
 
 /* --- FOOTER ---*/
 footer {

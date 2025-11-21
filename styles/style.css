@@ -20,15 +20,6 @@
     align-items: center;
 }
 
-.hero-container img {
-    scale: 1;
-    transition: scale 1s;
-}
-
-.hero-container img:hover {
-    scale: 1.1;
-}
-
 .singel-logos-desktop {
     display: none;
 }

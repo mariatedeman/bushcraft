@@ -7,7 +7,7 @@
 
 <section class="hero">
     <div class="hero-container">
-        <img src="assets/logotyp_text_symbol.png">
+        <img src="assets/logotyp_text_symbol-red.svg">
         <div>
             <p class="subheading">Underrubrik</p>
             <button class="button-primary">Button</button>
