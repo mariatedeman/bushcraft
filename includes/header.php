@@ -7,6 +7,7 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="/styles/library-components.css">
+    <link rel="stylesheet" href="/styles/shopping-cart.css">
     <link rel="stylesheet" href="/styles/menu.css">
     <link rel="stylesheet" href="/styles/product-popup.css">
     <link rel="stylesheet" href="/styles/style.css">
@@ -77,8 +78,14 @@
             <div class="icon-box"><a><img src="/assets/search.svg"></a></div>
             <div class="icon-box"><a><img class="logo-mobile" src="/assets/logotyp-header-red.svg"></a></div>
             <div class="icon-box"><a><img src="/assets/smile.svg"></a></div>
-            <div class="icon-box"><a><img src="/assets/shopping-cart.svg"></a></div>
+            <div class="icon-box">
+                <!-- SHOPPING CART: HAMBURGER ICON / CHECKBOX -->
+                <label for="cart-open"><img src="/assets/shopping-cart.svg" alt=""></label>
+                <input type="checkbox" id="cart-open"></input>
+                <?php require __DIR__ . "/shopping-cart.php" ?>
+            </div>
         </div>
+
 
         <!-- DESKTOP -->
         <div class="icon-container-desktop">
@@ -139,7 +146,13 @@
             <div>
                 <div class="icon-box"><a><img src="/assets/search.svg"></a></div>
                 <div class="icon-box"><a><img src="/assets/smile.svg"></a></div>
-                <div class="icon-box"><a><img src="/assets/shopping-cart.svg"></a></div>
+                <div class="icon-box">
+                    <!-- SHOPPING CART: HAMBURGER ICON / CHECKBOX -->
+                    <label for="cart-open-desktop"><img src="/assets/shopping-cart.svg" alt=""></label>
+                    <input type="checkbox" id="cart-open-desktop"></input>
+                    <?php require __DIR__ . "/shopping-cart.php" ?>
+
+                </div>
             </div>
         </div>
     </header>
