@@ -30,14 +30,14 @@
         </section>
 
         <!-- DESKTOP: IMG CONTAINER -->
-        <section class="product-popup-img-container">
+        <!-- <section class="product-popup-img-container">
             <img class="product-popup-img-active product-popup-img-1" src="/assets/products/PONCHO_black_V1_1080x1080.png" alt="">
             <section>
                 <img src="/assets/products/PONCHO_brown_V1_1080x1080.png" alt="">
                 <img src="/assets/products/PONCHO_green_V1_1080x1080.png" alt="">
             </section>
 
-        </section>
+        </section> -->
 
 
         <!-- HEADING AND STAR SECTION -->
