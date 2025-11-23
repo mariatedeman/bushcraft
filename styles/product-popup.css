@@ -69,7 +69,7 @@
 }
 
 .product-popup-img-carousel .card img {
-    height: auto;
+    max-width: 100vw;
 }
 
 .product-popup-img-container {
@@ -283,10 +283,6 @@ form button {
         grid-column: 1 / 3;
         grid-row: 1 / 2;
         background: lightgray;
-    }
-
-    .product-popup-img-count div {
-        display: none;
     }
 
     .product-popup-img-container section img {

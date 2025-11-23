@@ -7,16 +7,25 @@
 
             <section class="carousel">
                 <div class="card">
-                    <img src="/assets/Rectangle-24.png">
+                    <img src="/assets/products/PONCHO_green_V1_1080x1080.png">
                 </div>
 
                 <div class="card">
-                    <img src="/assets/Rectangle-24.png">
+                    <img src="/assets/products/PONCHO_green_closeup_V1_1080x1080.png">
                 </div>
 
                 <div class="card">
-                    <img src="/assets/Rectangle-24.png">
+                    <img src="/assets/products/PONCHO_hammock_square.png">
                 </div>
+
+                <div class="card">
+                    <img src="/assets/products/PONCHO_lifestyle_backside_panoramic_square.png">
+                </div>
+
+                <div class="card">
+                    <img src="/assets/products/PONCHO_lifestyle_front_sqare.png">
+                </div>
+
             </section>
         </section>
 
