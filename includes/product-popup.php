@@ -134,5 +134,3 @@
         </div>
     </span>
 </article>
-
-<script src="script.js"></script>

@@ -24,7 +24,7 @@
         <div class="icon-container">
             <div class="icon-box">
                 <!-- HAMBURGER ICON / CHECKBOX -->
-                <label for="menu-open"><img src="/assets/hamburger-menu.svg" alt=""></label>
+                <label for="menu-open"><img class="menu-icon" src="/assets/hamburger-menu.svg" alt=""></label>
                 <input type="checkbox" id="menu-open"></input>
 
                 <!-- MOBILE MENU -->
@@ -73,12 +73,12 @@
                 <!-- END OF MENU -->
             </div>
 
-            <div class="icon-box"><a><img src="/assets/search.svg"></a></div>
-            <div class="icon-box"><a><img class="logo-mobile" src="/assets/logotyp-header-red.svg"></a></div>
-            <div class="icon-box"><a><img src="/assets/smile.svg"></a></div>
+            <div class="icon-box"><img src="/assets/search.svg"></div>
+            <div class="icon-box"><img class="logo-mobile" src="/assets/logotyp-header-red.svg"></div>
+            <div class="icon-box"><img src="/assets/smile.svg"></div>
             <div class="icon-box">
                 <!-- SHOPPING CART: HAMBURGER ICON / CHECKBOX -->
-                <label for="cart-open"><img src="/assets/shopping-cart.svg" alt=""></label>
+                <label for="cart-open"><img class="menu-icon" src="/assets/shopping-cart.svg" alt=""></label>
                 <input type="checkbox" id="cart-open"></input>
                 <?php require __DIR__ . "/shopping-cart.php" ?>
             </div>
@@ -139,11 +139,11 @@
                 </div>
             </div>
             <div>
-                <div class="icon-box"><a><img id="logo-desktop" src="/assets/logotyp-header-red.svg"></a></div>
+                <div class="icon-box"><img id="logo-desktop" src="/assets/logotyp-header-red.svg"></div>
             </div>
             <div>
-                <div class="icon-box"><a><img src="/assets/search.svg"></a></div>
-                <div class="icon-box"><a><img src="/assets/smile.svg"></a></div>
+                <div class="icon-box"><img src="/assets/search.svg"></div>
+                <div class="icon-box"><img src="/assets/smile.svg"></div>
                 <div class="icon-box">
                     <!-- SHOPPING CART: HAMBURGER ICON / CHECKBOX -->
                     <label for="cart-open-desktop"><img src="/assets/shopping-cart.svg" alt=""></label>

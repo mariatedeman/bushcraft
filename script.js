@@ -26,3 +26,21 @@ colorButtons.forEach(button => {
         }
     });
 });
+
+// HEADER: CHANGE ICON ON CLICK
+const menuIcon = document.querySelector(".menu-icon");
+if (menuIcon) {
+    const menuIconOpen = menuIcon.getAttribute("src"); // ursprunglig ikon
+    const menuIconClose = "/assets/kryss.svg";          // ikon när stängd
+
+    menuIcon.dataset.state = "open"; // initiera state
+
+    menuIcon.addEventListener("click", () => {
+        const isOpen = menuIcon.dataset.state === "open";
+        menuIcon.setAttribute("src", isOpen ? menuIconClose : menuIconOpen);
+        menuIcon.dataset.state = isOpen ? "closed" : "open";
+
+        menuIcon.classList.toggle("menu-icon-closed", isOpen);
+        menuIcon.classList.toggle("menu-icon-open", !isOpen);
+    });
+}

@@ -3,9 +3,9 @@
 
                     <div class="shopping-cart-heading-close">
                         <p class="subheading">Varukorg</p>
-                        <div class="icon-box">
+                        <!-- <div class="icon-box">
                             <a href="#"><img src="/assets/plus.svg" alt=""></a>
-                        </div>
+                        </div> -->
                     </div>
 
                     <div class="shopping-cart-in-cart">
