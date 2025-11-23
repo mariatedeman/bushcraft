@@ -145,30 +145,19 @@
     height: 30px;
     width: 30px;
     border-radius: 50%;
+    border: 0;
 }
 
-.product-popup-color-red {
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-
-    background-color: rgb(188, 20, 20);
+.product-popup-color-brown {
+    background-color: rgb(77, 60, 53);
 }
 
 .product-popup-color-black {
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-
-    background-color: black;
+background-color: rgb(49, 49, 49);
 }
 
 .product-popup-color-green {
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-
-    background-color: rgb(46, 99, 46);
+background-color: rgb(118, 141, 87);
 }
 
 .product-popup-description {

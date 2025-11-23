@@ -7,11 +7,11 @@
 
             <section class="carousel">
                 <div class="card">
-                    <img src="/assets/products/PONCHO_green_V1_1080x1080.png">
+                    <img class="product-popup-img-1" src="/assets/products/PONCHO_green_V1_1080x1080.png">
                 </div>
 
                 <div class="card">
-                    <img src="/assets/products/PONCHO_green_closeup_V1_1080x1080.png">
+                    <img class="product-popup-img-2" src="/assets/products/PONCHO_green_closeup_V1_1080x1080.png">
                 </div>
 
                 <div class="card">
@@ -31,16 +31,12 @@
 
         <!-- DESKTOP: IMG CONTAINER -->
         <section class="product-popup-img-container">
-            <img class="product-popup-img-active" src="/assets/products/PONCHO_black_V1_1080x1080.png" alt="">
+            <img class="product-popup-img-active product-popup-img-1" src="/assets/products/PONCHO_black_V1_1080x1080.png" alt="">
             <section>
                 <img src="/assets/products/PONCHO_brown_V1_1080x1080.png" alt="">
                 <img src="/assets/products/PONCHO_green_V1_1080x1080.png" alt="">
             </section>
-            <div class="product-popup-img-count">
-                <div id="product-popup-img-count-active"></div>
-                <div></div>
-                <div></div>
-            </div>
+
         </section>
 
 
@@ -63,10 +59,22 @@
             <section class="product-popup-price-color-description">
                 <p>Färg</p>
                 <div class="product-popup-colors">
-                    <button class="product-popup-color product-popup-color-red" data-img="/assets/products/PONCHO_black_V1_1080x1080.png"></button>
-                    <button class="product-popup-color product-popup-color-black" data-img="/assets/products/PONCHO_brown_V1_1080x1080.png"></button>
-                    <button class="product-popup-color product-popup-color-green" data-img="/assets/products/PONCHO_green_V1_1080x1080.png"></button>
+
+                    <button class="product-popup-color product-popup-color-brown"
+                        data-img="/assets/products/PONCHO_brown_V1_1080x1080.png"
+                        data-img-secondary="/assets/products/PONCHO_brown_closeup_V1_1080x1080.png">
+                    </button>
+
+                    <button class="product-popup-color product-popup-color-black"
+                        data-img="/assets/products/PONCHO_black_V1_1080x1080.png"
+                        data-img-secondary="/assets/products/PONCHO_black_closeup_V1_1080x1080.png">
+                    </button>
+                    <button class="product-popup-color product-popup-color-green"
+                        data-img="/assets/products/PONCHO_green_V1_1080x1080.png"
+                        data-img-secondary="/assets/products/PONCHO_green_closeup_V1_1080x1080.png">
+                    </button>
                 </div>
+
                 <p class="subheading">Beskrivning</p>
                 <p class="product-popup-description">Moodboards ser liknande ut och vi har samma
                     uppfattning om brand och look: avskalat,
