@@ -22,10 +22,10 @@
 
         <!-- DESKTOP: IMG CONTAINER -->
         <section class="product-popup-img-container">
-            <img class="product-popup-img-active" src="/assets/Rectangle-24.png" alt="">
+            <img class="product-popup-img-active" src="/assets/products/PONCHO_black_V1_1080x1080.png" alt="">
             <section>
-                <img src="" alt="">
-                <img src="" alt="">
+                <img src="/assets/products/PONCHO_brown_V1_1080x1080.png" alt="">
+                <img src="/assets/products/PONCHO_green_V1_1080x1080.png" alt="">
             </section>
             <div class="product-popup-img-count">
                 <div id="product-popup-img-count-active"></div>
@@ -54,9 +54,9 @@
             <section class="product-popup-price-color-description">
                 <p>Färg</p>
                 <div class="product-popup-colors">
-                    <div class="product-popup-color product-popup-color-red"></div>
-                    <div class="product-popup-color product-popup-color-black"></div>
-                    <div class="product-popup-color product-popup-color-green"></div>
+                    <button class="product-popup-color product-popup-color-red" data-img="/assets/products/PONCHO_black_V1_1080x1080.png"></button>
+                    <button class="product-popup-color product-popup-color-black" data-img="/assets/products/PONCHO_brown_V1_1080x1080.png"></button>
+                    <button class="product-popup-color product-popup-color-green" data-img="/assets/products/PONCHO_green_V1_1080x1080.png"></button>
                 </div>
                 <p class="subheading">Beskrivning</p>
                 <p class="product-popup-description">Moodboards ser liknande ut och vi har samma
@@ -79,9 +79,7 @@
                         <div>
                             <p>Storlek</p>
                             <div class="product-popup-size-amount-choices">
-                                <a href="#product-popup">
-                                    <p>S</p>
-                                </a>
+                                <p>S</p>
                                 <p>M</p>
                                 <p>L</p>
                             </div>
@@ -119,3 +117,5 @@
         </div>
     </span>
 </article>
+
+<script src="script.js"></script>
