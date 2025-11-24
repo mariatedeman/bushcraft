@@ -7,7 +7,7 @@
 
 <section class="hero">
     <div class="hero-container">
-        <img src="assets/logotyp_text_symbol.png">
+        <img src="assets/logotyp_text_symbol-red.svg">
         <div>
             <p class="subheading">Underrubrik</p>
             <button class="button-primary">Button</button>
@@ -71,5 +71,8 @@
         <button class="button-primary">Om oss</button>
     </div>
 </section>
+
+
+<script src="script.js"></script>
 
 <?php require_once __DIR__ . "/includes/footer.php" ?>

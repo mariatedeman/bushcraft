@@ -1,5 +1,6 @@
 @media screen and (min-width: 1200px) {
 
+    /* --- FONTS --- */
     h1, h2 {
         font-size: 3.5rem;
         margin-top: 3rem;
@@ -10,6 +11,7 @@
         font-size: 18px;
     }
 
+    /* --- HEADER --- */
     header .icon-container {
         display: none;
     }
@@ -33,7 +35,7 @@
         gap: 2rem;
     }
 
-    header .icon-container-desktop img {
+    .icon-box img:not(.shopping-cart-in-cart-img, .shopping-cart-giveaway-img) {
         height: 32px;  
     }
 
@@ -42,6 +44,62 @@
         position: absolute;
         justify-self: anchor-center;
         align-self: anchor-center;
+    }
+
+    /* --- MENU DESKTOP --- */
+    .menu-container-desktop {
+        display: none;
+        width: 100vw;
+        position: absolute;
+        left: 0;
+        top: 92px;
+    }
+
+    .menu-desktop {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .menu-desktop .menu-item {
+        flex-direction: column;
+    }
+
+    #menu-open-desktop:checked + .menu-container-desktop {
+        display: block;
+    }
+
+    .menu-item .subheading {
+        text-align: left;
+    }
+
+
+    /* --- SHOPPING CART --- */
+    #cart-open {
+        display: none;
+    }
+
+    #cart-open-desktop {
+        display: none;
+    }
+
+    #cart-open-desktop:checked + .shopping-cart-container {
+        display: flex;
+    }
+
+    .shopping-cart-container {
+        width: 550px;
+        right: 0;
+        z-index: 100;
+        justify-self: right;
+    }
+
+    .shopping-cart-in-cart-img-container, .shopping-cart-giveaway-img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .shopping-cart-in-cart-img {
+        height: 100%;
     }
 
     /* -- LINKS & BUTTONS -- */
@@ -72,6 +130,7 @@
     .hero-container img {
         display: none;
     }
+
 
     /* --- SIGNUP / KINKOLLEKTIVET --- */
 

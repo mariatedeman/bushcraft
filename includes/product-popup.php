@@ -7,32 +7,41 @@
 
             <section class="carousel">
                 <div class="card">
-                    <img src="/assets/Rectangle-24.png">
+                    <img class="product-popup-img-1" src="/assets/products/PONCHO_green_V1_1080x1080.png">
                 </div>
 
                 <div class="card">
-                    <img src="/assets/Rectangle-24.png">
+                    <img class="product-popup-img-2" src="/assets/products/PONCHO_green_closeup_V1_1080x1080.png">
                 </div>
 
                 <div class="card">
-                    <img src="/assets/Rectangle-24.png">
+                    <img src="/assets/products/PONCHO_turntable.gif">
                 </div>
+
+                <div class="card">
+                    <img src="/assets/products/PONCHO_hammock_square.png">
+                </div>
+
+                <div class="card">
+                    <img src="/assets/products/PONCHO_lifestyle_backside_panoramic_square.png">
+                </div>
+
+                <div class="card">
+                    <img src="/assets/products/PONCHO_lifestyle_front_sqare.png">
+                </div>
+
             </section>
         </section>
 
         <!-- DESKTOP: IMG CONTAINER -->
-        <section class="product-popup-img-container">
-            <img class="product-popup-img-active" src="/assets/Rectangle-24.png" alt="">
+        <!-- <section class="product-popup-img-container">
+            <img class="product-popup-img-active product-popup-img-1" src="/assets/products/PONCHO_black_V1_1080x1080.png" alt="">
             <section>
-                <img src="" alt="">
-                <img src="" alt="">
+                <img src="/assets/products/PONCHO_brown_V1_1080x1080.png" alt="">
+                <img src="/assets/products/PONCHO_green_V1_1080x1080.png" alt="">
             </section>
-            <div class="product-popup-img-count">
-                <div id="product-popup-img-count-active"></div>
-                <div></div>
-                <div></div>
-            </div>
-        </section>
+
+        </section> -->
 
 
         <!-- HEADING AND STAR SECTION -->
@@ -54,10 +63,22 @@
             <section class="product-popup-price-color-description">
                 <p>Färg</p>
                 <div class="product-popup-colors">
-                    <div class="product-popup-color product-popup-color-red"></div>
-                    <div class="product-popup-color product-popup-color-black"></div>
-                    <div class="product-popup-color product-popup-color-green"></div>
+
+                    <button class="product-popup-color product-popup-color-brown"
+                        data-img="/assets/products/PONCHO_brown_V1_1080x1080.png"
+                        data-img-secondary="/assets/products/PONCHO_brown_closeup_V1_1080x1080.png">
+                    </button>
+
+                    <button class="product-popup-color product-popup-color-black"
+                        data-img="/assets/products/PONCHO_black_V1_1080x1080.png"
+                        data-img-secondary="/assets/products/PONCHO_black_closeup_V1_1080x1080.png">
+                    </button>
+                    <button class="product-popup-color product-popup-color-green"
+                        data-img="/assets/products/PONCHO_green_V1_1080x1080.png"
+                        data-img-secondary="/assets/products/PONCHO_green_closeup_V1_1080x1080.png">
+                    </button>
                 </div>
+
                 <p class="subheading">Beskrivning</p>
                 <p class="product-popup-description">Moodboards ser liknande ut och vi har samma
                     uppfattning om brand och look: avskalat,
@@ -79,9 +100,7 @@
                         <div>
                             <p>Storlek</p>
                             <div class="product-popup-size-amount-choices">
-                                <a href="#product-popup">
-                                    <p>S</p>
-                                </a>
+                                <p>S</p>
                                 <p>M</p>
                                 <p>L</p>
                             </div>
@@ -90,9 +109,9 @@
                         <div>
                             <p>Antal</p>
                             <div class="product-popup-size-amount-choices">
-                                <p>1</p>
-                                <p>2</p>
-                                <p>3</p>
+                                <p class="size-choice-1">1</p>
+                                <p class="size-choice-2">2</p>
+                                <p class="size-choice-3">3</p>
                             </div>
                         </div>
                     </div>
