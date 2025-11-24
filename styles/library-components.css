@@ -308,3 +308,130 @@ footer p {
     margin-top: 1rem;
     margin-bottom: 2rem;
 }
+
+/*--HIDDEN ON MOBILE - FOOTER--*/
+
+.footer-extra-info{
+    display:none;
+}
+
+.footer-language{
+    display:none;
+}
+
+.footer-logo{
+    display:none;
+}
+
+.footer-copyright{
+    display:none;
+}
+
+/*---FOOTER DESKTOP---*/
+
+@media(min-width:1200px){
+    #footmedia1{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "footinfo footsupport"
+        "footsek";
+
+    }
+
+    .footer-more-info{
+        width:100px;
+    }
+
+    .svgplus{
+        content-visibility:hidden;
+    }
+
+    .footer-extra-info{
+        display:block;
+        font-weight: normal;
+    }
+
+    #footinfo{
+        display:grid;
+        
+    }
+
+    #footsupport{
+        display:grid;
+    }
+
+    #footsek{
+        display:grid;
+        margin-top:5%; 
+    }
+
+    .footer-social-link{
+        display:grid;
+        grid-template-areas:
+        "footer-social-img footer-extra-info";
+    }
+
+    .footer-socials{
+        display:grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows:auto;
+        column-gap: 0.5rem;
+        grid-template-areas: 
+        "body-bold"
+        "footer-social-link"
+        "footer-social-link";
+
+    }
+
+    #footer-lang-setting{
+        font-weight: normal;
+    }
+
+    .footer-language{
+        display:grid;
+        column-gap: 1rem;
+        grid-template-areas:
+        "footer-lang-setting footer-lang-globe";
+    }
+
+    .footer-container{
+        display:grid;
+        grid-template-columns: 40px 40px;
+        grid-template-areas:
+        "footer-socials footer-language"
+        "footer-payment ";
+    }
+
+    .footer-logo{
+        display:flex;
+        
+    }
+
+    #footer-wrapper{
+        scale:75%;
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows:auto;
+        column-gap: 0.5rem;
+        grid-template-areas: 
+        "footmedia1 footer-logo footer-container";
+    }
+
+    .footer-copyright-container{
+        display:flex;
+        flex-direction: end;
+        justify-content: flex-end;
+    }
+
+    .footer-copyright{
+        display:grid;
+        grid-template-areas:
+        "footer-copyright-img footer-copyright-text";
+    }
+
+    #footer-copyright-text{
+        font-weight: normal;
+    }
+}
