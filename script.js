@@ -9,6 +9,7 @@
 //     });
 // });
 
+
 // PRODUCT POPUP: COLOR CONFIGURATOR
 const productImagePrimary = document.querySelector(".product-popup-img-1");
 const productImageSecondary = document.querySelector(".product-popup-img-2");
@@ -44,3 +45,12 @@ if (menuIcon) {
         menuIcon.classList.toggle("menu-icon-open", !isOpen);
     });
 }
+
+const sizeChoice = document.querySelector(".product-popup-size-amount-choices");
+
+sizeChoice.addEventListener("click", () => {
+    sizeChoice.classList.toggle("subheading");
+
+    
+
+})

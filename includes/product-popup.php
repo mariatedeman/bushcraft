@@ -15,6 +15,10 @@
                 </div>
 
                 <div class="card">
+                    <img src="/assets/products/PONCHO_turntable.gif">
+                </div>
+
+                <div class="card">
                     <img src="/assets/products/PONCHO_hammock_square.png">
                 </div>
 
@@ -105,9 +109,9 @@
                         <div>
                             <p>Antal</p>
                             <div class="product-popup-size-amount-choices">
-                                <p>1</p>
-                                <p>2</p>
-                                <p>3</p>
+                                <p class="size-choice-1">1</p>
+                                <p class="size-choice-2">2</p>
+                                <p class="size-choice-3">3</p>
                             </div>
                         </div>
                     </div>
