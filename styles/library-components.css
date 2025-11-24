@@ -77,7 +77,7 @@ a:hover {
     background: var(--hover-dark);
 }
 
-.button-secondary {
+.button-light {
     border: none;
     border-radius: 2px;
     height: 44px;

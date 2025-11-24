@@ -10,7 +10,7 @@
         <img src="assets/logotyp_text_symbol-red.svg">
         <div>
             <p class="subheading">Underrubrik</p>
-            <button class="button-primary">Button</button>
+            <button class="button-light">Button</button>
         </div>
     </div>
 </section>
@@ -25,10 +25,10 @@
 <!-- SIGN UP SECTION - KINKOLLEKTIVET -->
 <section class="img-background-signup">
     <div class="img-background-text">
-        <h2>kinkollektivet</h2>
         <p>Bli en del av sveriges största bush craft-kollektiv.
             Köp och sälj begagnad utrustning,
             diskutera spännande ämnen och dela dina bästa tips och råd.</p>
+        <h2>kinkollektivet</h2>
     </div>
     <div class="signup-container">
         <p class="subheading">Bli medlem/ Logga in</p>
@@ -49,10 +49,10 @@
             <h2>Kinchatten</h2>
         </div>
         <div class="buttons-container">
-            <button class="button-secondary">Button</button>
-            <button class="button-secondary">Button</button>
-            <button class="button-secondary">Button</button>
-            <button class="button-secondary">Button</button>
+            <button class="button-light">Button</button>
+            <button class="button-light">Button</button>
+            <button class="button-light">Button</button>
+            <button class="button-light">Button</button>
 
         </div>
     </div>
@@ -62,15 +62,18 @@
 <!-- MOBILE: CAROUSEL || DESKTOP: GALLERY -->
 <?php require_once __DIR__ . "/includes/kintech.php" ?>
 
+
+<!-- ABOUT US -->
 <section class="img-background">
     <div>
         <div class="img-background-text">
             <p>Upplev en ny dimension av bushcraft. Designad för dig, drivet av teknik, skapat för planeten.</p>
             <h2>Vår idé</h2>
         </div>
-        <button class="button-primary">Om oss</button>
+        <button class="button-light">Om oss</button>
     </div>
 </section>
+
 
 
 <script src="script.js"></script>

@@ -26,7 +26,7 @@
         align-items: center;
 
         position: fixed;
-        background: white;
+        background: var(--primary-light);
         z-index: 99
     }
 
@@ -125,6 +125,11 @@
     .singel-logos-desktop img:last-child {
         right: 2rem;
         position: fixed;
+    }
+
+    .hero {
+        color: var(--primary-dark);
+        background-position: center;
     }
 
     .hero-container img {

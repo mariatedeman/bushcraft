@@ -1,14 +1,17 @@
-
 /* --- HOME PAGE --- */
 
 .hero {
     height: 80vh;
     width: 100vw;
-    background-color: lightgrey;
     
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    background-image: url(/assets/kinforma_hero-img.png);
+    background-size: contain;
+
+    color: var(--primary-light);
 }
 
 .hero-container {
@@ -18,6 +21,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+
 }
 
 .singel-logos-desktop {
@@ -91,18 +95,24 @@
 .img-background, 
 .img-background-signup, 
 .img-background-chat {
-    background-color: lightgray;
     height: 650px;
     width: 100vw;
+
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    
+    color: var(--primary-light);
 }
 
 .img-background-signup {
     flex-direction: column;
     justify-content: space-evenly;
+
+    background-image: url(/assets/kinforma-camp-fire.png);
+    background-size: cover;
+    background-position: center;
 }
 
 .signup-container {
@@ -141,6 +151,11 @@
 
 /* --- CHAT --- */
 
+.img-background-chat {
+    background-image: url(/assets/kinforma-canvas-background.png);
+    color: var(--primary-light);
+}
+
 .buttons-container {
     display: flex;
     flex-wrap: wrap;
@@ -148,3 +163,13 @@
     gap: 0.5rem;
     margin-top: 5rem;
 }
+
+
+/* --- ABOUT US --- */
+.img-background {
+    background-image: linear-gradient(45deg, #0000009e, #0000009e), url(/assets/kinforma-poncho-nature.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+
