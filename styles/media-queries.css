@@ -130,6 +130,7 @@
     .hero {
         color: var(--primary-dark);
         background-position: center;
+        background-size: cover;
     }
 
     .hero-container img {
