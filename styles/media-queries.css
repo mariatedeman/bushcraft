@@ -58,6 +58,7 @@
     .menu-desktop {
         flex-direction: row;
         justify-content: space-between;
+        padding-bottom: 3rem;
     }
 
     .menu-desktop .menu-item {
