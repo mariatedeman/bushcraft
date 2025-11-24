@@ -2,7 +2,8 @@
 
 /* --- PRODUCT POPUP --- */
 
-#product-popup {
+#product-popup,
+#product-popup-array {
     display: none;
 
     position: fixed;
@@ -16,11 +17,13 @@
     background-color: var(--primary-light);
 }
 
-#product-popup:target {
+#product-popup:target,
+#product-popup-array:target {
     display: block;
 }
 
-#product-popup p {
+#product-popup p,
+#product-popup-array p {
     text-align: left;
 }
 
@@ -210,7 +213,8 @@ form button {
 
 @media screen and (min-width: 1200px) {
 
-    #product-popup:target {
+    #product-popup:target,
+    #product-popup-array:target {
         height: 90vh;
         width: auto;
         place-self: anchor-center;
