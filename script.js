@@ -5,16 +5,18 @@ const colorButtons = document.querySelectorAll(".product-popup-color");
 
 colorButtons.forEach(button => {
     button.addEventListener("click", () => {
-        const newImagePrimary = button.getAttribute("data-img");
+        const newImagePrimary = button.getAttribute("data-img-primary");
         const newImageSecondary = button.getAttribute("data-img-secondary");
         
         productImagePrimary.src = newImagePrimary;
         
         if (newImageSecondary && productImageSecondary) {
             productImageSecondary.src = newImageSecondary;
-        }
+        } 
+
     });
 });
+
 
 // HEADER: CHANGE ICON ON CLICK
 const menuIcon = document.querySelector(".menu-icon");
