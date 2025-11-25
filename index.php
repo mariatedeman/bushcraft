@@ -9,8 +9,8 @@
     <div class="hero-container">
         <img src="assets/logotyp_text_symbol-red.svg">
         <div>
-            <p class="subheading">Underrubrik</p>
-            <button class="button-light">Button</button>
+            <p class="subheading">Framtidens bushcraft idag</p>
+            <button class="button-light">Utforska</button>
         </div>
     </div>
 </section>
@@ -25,7 +25,7 @@
 <!-- SIGN UP SECTION - KINKOLLEKTIVET -->
 <section class="img-background-signup">
     <div class="img-background-text">
-        <p>Bli en del av sveriges största bush craft-kollektiv.
+        <p>Bli en del av sveriges största bushcraft-kollektiv.
             Köp och sälj begagnad utrustning,
             diskutera spännande ämnen och dela dina bästa tips och råd.</p>
         <h2>kinkollektivet</h2>
@@ -35,7 +35,7 @@
         <p>Mejladress</p>
         <!-- TODO: Add input security in seperate file --->
         <?php require_once __DIR__ . "/includes/input.php" ?>
-        <button class="button-primary">Skicka verifieringskod</button>
+        <button class="button-green">Skicka verifieringskod</button>
     </div>
 
 </section>

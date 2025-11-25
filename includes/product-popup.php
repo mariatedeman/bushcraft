@@ -22,11 +22,11 @@ if (!isset($_GET['id'])) ?>
                 </div>
 
                 <div class="card">
-                    <img src="/assets/products/poncho/PONCHO_hammock_square.png">
+                    <img src="/assets/products/poncho/PONCHO_pack_1080x1080px.png">
                 </div>
 
                 <div class="card">
-                    <img src="/assets/products/poncho/PONCHO_lifestyle_backside_panoramic_square.png">
+                    <img src="/assets/products/poncho/PONCHO_hammock_square.png">
                 </div>
 
                 <div class="card">

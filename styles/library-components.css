@@ -91,8 +91,26 @@ a:hover {
     transition: background-color 0.3s ease-in;
 }
 
-.button-secondary:hover {
+.button-light:hover {
     background-color: var(--hover-light);
+}
+
+.button-green {
+    border: none;
+    border-radius: 2px;
+    height: 44px;
+    padding: 10px 30px 10px 30px;
+    
+    background-color: var(--secondary-hover);
+    color: var(--primary-light);
+    font-family:var(--body-font);
+    cursor: pointer;
+
+    transition: background-color 0.3s ease-in;
+}
+
+.button-green:hover {
+    background-color: var(--secondary);
 }
 
 

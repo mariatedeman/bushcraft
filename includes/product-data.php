@@ -20,6 +20,7 @@ $products = [
             '/assets/products/backpack/backpack-green-4.png',
             '/assets/products/backpack/backpack-green-5.png',
             '/assets/products/backpack/backpack-green-turntable.gif',
+            '/assets/products/backpack/backpack-green-6.png',
         ],
     ],
 
