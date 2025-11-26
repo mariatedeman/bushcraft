@@ -316,6 +316,7 @@ nav section {
     display: flex;
 }
 
+
 /* --- FOOTER ---*/
 footer {
     display: flex;
@@ -350,4 +351,41 @@ footer p {
     justify-content: space-around;
     margin-top: 1rem;
     margin-bottom: 2rem;
+}
+
+
+/* NEW */
+
+/*--HIDDEN ON MOBILE - FOOTER--*/
+
+.footer-extra-info{
+    display:none;
+}
+
+.footer-language{
+    display:none;
+}
+
+.footer-logo{
+    display:none;
+}
+
+.footer-copyright{
+    display:none;
+}
+
+#footinfo-desktop{
+    display:none;
+}
+
+#footsupport-desktop{
+    display:none;
+}
+
+.footer-desktop-space{
+    display:none;
+}
+
+.footer-extra-soc{
+    display:none;
 }
