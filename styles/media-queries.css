@@ -1,0 +1,238 @@
+@media screen and (min-width: 1200px) {
+
+    /* --- FONTS --- */
+    h1, h2 {
+        font-size: 3.5rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    /* --- HEADER --- */
+    header .icon-container {
+        display: none;
+    }
+
+    header .icon-container-desktop {
+        width: 100vw;
+        height: 92px;
+        padding: 2rem;
+
+        display: flex;
+        justify-content: space-between;    
+        align-items: center;
+
+        position: fixed;
+        background: white;
+        z-index: 99
+    }
+
+    header .icon-container-desktop div:nth-child(3) {
+        display: flex;
+        gap: 2rem;
+    }
+
+    .icon-box img:not(.shopping-cart-in-cart-img, .shopping-cart-giveaway-img) {
+        height: 32px;  
+    }
+
+    header #logo-desktop {
+        height: 1rem;
+        position: absolute;
+        justify-self: anchor-center;
+        align-self: anchor-center;
+    }
+
+    /* --- MENU DESKTOP --- */
+    .menu-container-desktop {
+        display: none;
+        width: 100vw;
+        position: absolute;
+        left: 0;
+        top: 92px;
+    }
+
+    .menu-desktop {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .menu-desktop .menu-item {
+        flex-direction: column;
+    }
+
+    #menu-open-desktop:checked + .menu-container-desktop {
+        display: block;
+    }
+
+    .menu-item .subheading {
+        text-align: left;
+    }
+
+
+    /* --- SHOPPING CART --- */
+    #cart-open {
+        display: none;
+    }
+
+    #cart-open-desktop {
+        display: none;
+    }
+
+    #cart-open-desktop:checked + .shopping-cart-container {
+        display: flex;
+    }
+
+    .shopping-cart-container {
+        width: 550px;
+        right: 0;
+        z-index: 100;
+        justify-self: right;
+    }
+
+    .shopping-cart-in-cart-img-container, .shopping-cart-giveaway-img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .shopping-cart-in-cart-img {
+        height: 100%;
+    }
+
+    /* -- LINKS & BUTTONS -- */
+
+    /* a:hover img {
+        transition: scale 1.1;
+    } */
+
+    /* -- HERO -- */
+
+    .singel-logos-desktop {
+        display: block;
+        position: relative;
+        top: 35vh;
+        z-index: 98;
+    }
+
+    .singel-logos-desktop img:first-child {
+        left: 2rem;
+        position: fixed;
+    }
+
+    .singel-logos-desktop img:last-child {
+        right: 2rem;
+        position: fixed;
+    }
+
+    .hero-container img {
+        display: none;
+    }
+
+
+    /* --- SIGNUP / KINKOLLEKTIVET --- */
+
+    .img-background-signup,
+    .img-background-chat {
+        height: 780px;
+    }
+
+    .img-background-text p {
+        max-width: 35vw;
+    }
+
+    .signup-container {
+        position: relative;
+        margin-bottom: 6rem;
+    }
+
+    .signup-container input {
+        width: 500px;
+    }
+
+    .signup-container button {
+        position: absolute;
+        right: 0;
+        bottom: -4rem;
+    }
+    
+
+    /* --- MOBILE CAROUSELS => DESKTOP GALLERIES --- */
+
+    .carousel {
+        display: none;
+    }
+
+    .gallery-desktop {
+        display: flex;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+
+    /* --- NEWS SECTION ---*/
+
+    .gallery-desktop .card {
+        height: 520px;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-img-container {
+        width: 334px;
+        height: 440px;
+
+        margin-bottom: 2rem;
+        contain: content;
+    }
+
+    .gallery-desktop .card img {
+        height: 100%;
+        object-fit: cover;
+        scale: 1;
+        transition: scale 1s;
+    }
+
+    .gallery-desktop .card img:hover {
+        scale: 1.05;
+    }
+
+    /* --- KINTECH --- */
+
+    .gallery-desktop-kintech {
+        display: flex;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+
+    .gallery-desktop-kintech .card-button {
+        height: 676px;
+        width: 676px;
+    }
+
+    .gallery-desktop-kintech .card-img-container {
+        width: 676px;
+        height: 100%;
+
+        background-color: white;
+        contain: content;
+    }
+
+    .gallery-desktop-kintech .card-button img {
+        width: 100%;
+        object-fit: cover;
+        scale: 1;
+        transition: scale 1s;
+    }
+
+    .gallery-desktop-kintech .card-button img:hover {
+        scale: 1.05;
+    }
+
+    .card-button button {
+        top: 85%;
+    }
+
+}
