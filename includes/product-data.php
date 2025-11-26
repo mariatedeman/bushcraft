@@ -1,6 +1,44 @@
 <?php
 
 $products = [
+
+    'brackeryggsack' => [
+        'rubrik' => 'Bräcke Ryggsäck',
+        'pris' => '2995',
+        'beskrivning' => 'Robust ryggsäck i väderresistent ripstop-nylon 
+        med förstärkta detaljer. Ergonomiska, justerbara 
+        remmar och smarta fästpunkter ger flexibel packning, 
+        medan vattenavvisande dragkedjor och ventilerad ryggpanel 
+        säkerställer teknisk funktion i tuffa miljöer.',
+        'color' => [
+            'grey',
+            'bluegreen',
+        ],
+        'size' => [
+            'S',
+            'M',
+            'L',
+        ],
+        'imgURL' => [
+            '/assets/products/backpack/backpack-grey-1.png',
+            '/assets/products/backpack/backpack-grey-2.png',
+            '/assets/products/backpack/backpack-grey-3.png',
+            '/assets/products/backpack/backpack-grey-4.png',
+            '/assets/products/backpack/backpack-green-turntable.gif',
+            '/assets/products/backpack/backpack-green-6.png',
+        ],
+        'dataIMG' => [
+            'grey' => [
+                '/assets/products/backpack/backpack-grey-1.png',
+                '/assets/products/backpack/backpack-grey-2.png',
+            ],
+            'bluegreen' => [
+                '/assets/products/backpack/backpack-green-1.png',
+                '/assets/products/backpack/backpack-green-2.png',
+            ],
+        ],
+    ],
+
     'funasponcho' => [
         'rubrik' => 'Funäs Poncho',
         'pris' => '4995',
@@ -38,43 +76,6 @@ $products = [
             'black' => [
                 '/assets/products/poncho/PONCHO_black_V1_1080x1080.png',
                 '/assets/products/poncho/PONCHO_black_closeup_V1_1080x1080.png',
-            ],
-        ],
-    ],
-
-    'brackeryggsack' => [
-        'rubrik' => 'Bräcke Ryggsäck',
-        'pris' => '2995',
-        'beskrivning' => 'Robust ryggsäck i väderresistent ripstop-nylon 
-                        med förstärkta detaljer. Ergonomiska, justerbara 
-                        remmar och smarta fästpunkter ger flexibel packning, 
-                        medan vattenavvisande dragkedjor och ventilerad ryggpanel 
-                        säkerställer teknisk funktion i tuffa miljöer.',
-        'color' => [
-            'grey',
-            'bluegreen',
-        ],
-        'size' => [
-            'S',
-            'M',
-            'L',
-        ],
-        'imgURL' => [
-            '/assets/products/backpack/backpack-grey-1.png',
-            '/assets/products/backpack/backpack-grey-2.png',
-            '/assets/products/backpack/backpack-grey-3.png',
-            '/assets/products/backpack/backpack-grey-4.png',
-            '/assets/products/backpack/backpack-green-turntable.gif',
-            '/assets/products/backpack/backpack-green-6.png',
-        ],
-        'dataIMG' => [
-            'grey' => [
-                '/assets/products/backpack/backpack-grey-1.png',
-                '/assets/products/backpack/backpack-grey-2.png',
-            ],
-            'bluegreen' => [
-                '/assets/products/backpack/backpack-green-1.png',
-                '/assets/products/backpack/backpack-green-2.png',
             ],
         ],
     ],

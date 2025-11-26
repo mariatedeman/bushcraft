@@ -4,25 +4,25 @@
 
     <div class="card card-button">
         <div class="card-img-container">
-            <img src="/assets/borr_frilagd_gron.png">
+            <img src="/assets/kintech-fabric.jpg">
         </div>
 
-        <button class="button-secondary">Button</button>
+        <button class="button-primary">Utforska</button>
 
         <div class="card-text">
-            <p>Kort brödtext om ovan ämne, upp till tre rader sedan blir texten ...</p>
+            <p>Kintech canvas är ett ultra-tunt och tekniskt högpresterande material ...</p>
         </div>
     </div>
 
     <div class="card card-button">
         <div class="card-img-container">
-            <img src="/assets/borr_frilagd_gron.png">
+            <img src="/assets/kintech-packing.jpg">
         </div>
 
-        <button class="button-secondary">Button</button>
+        <button class="button-primary">Utforska</button>
 
         <div class="card-text">
-            <p>Kort brödtext om ovan ämne, upp till tre rader sedan blir texten ...</p>
+            <p>Vi använder oss av 100% återvunnet förpacknings-material ...</p>
         </div>
     </div>
 

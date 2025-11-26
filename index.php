@@ -70,7 +70,7 @@
             <p>Upplev en ny dimension av bushcraft. Designad för dig, drivet av teknik, skapat för planeten.</p>
             <h2>Vår idé</h2>
         </div>
-        <button class="button-light">Om oss</button>
+        <button class="button-primary">Om oss</button>
     </div>
 </section>
 

@@ -29,6 +29,7 @@
     width: 100vw;
     height: 393px;
     overflow-y: hidden;
+    align-items: center;
 
     anchor-name: --carousel;
     scroll-marker-group: after;
@@ -66,6 +67,7 @@
 .product-popup-img-carousel .card {
     height: 450px;
     flex: 0 0 100vw;
+    justify-content: center;
 }
 
 .product-popup-img-carousel .card img {
@@ -274,7 +276,9 @@ form button {
     .product-popup-img-carousel .carousel {
         height: 720px;
         width: 540px;
+        align-items: center;
     }
+
     .product-popup-img-carousel .card {
         height: 100%;
         flex: 0 0 100%;
