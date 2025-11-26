@@ -25,13 +25,12 @@
 <!-- SIGN UP SECTION - KINKOLLEKTIVET -->
 <section class="img-background-signup">
     <div class="img-background-text">
-        <p>Bli en del av sveriges största bushcraft-kollektiv.
-            Köp och sälj begagnad utrustning,
-            diskutera spännande ämnen och dela dina bästa tips och råd.</p>
+        <p>Bli en del av sveriges största bush craft-kollektiv. Köp och
+            sälj begagnad utrustning och ta del av Kinchatten.</p>
         <h2>kinkollektivet</h2>
     </div>
     <div class="signup-container">
-        <p class="subheading">Bli medlem/ Logga in</p>
+        <p class="subheading">Bli medlem / Logga in:</p>
         <p>Mejladress</p>
         <!-- TODO: Add input security in seperate file --->
         <?php require_once __DIR__ . "/includes/input.php" ?>
@@ -45,14 +44,14 @@
 <section class="img-background-chat">
     <div>
         <div class="img-background-text">
-            <p>Läs och diskutera bush craft i vårt medlemsforum</p>
             <h2>Kinchatten</h2>
+            <p>Diskutera spännande ämnen och dela dina bästa tips och råd.</p>
         </div>
         <div class="buttons-container">
-            <button class="button-light">Button</button>
-            <button class="button-light">Button</button>
-            <button class="button-light">Button</button>
-            <button class="button-light">Button</button>
+            <button class="button-light">#vattenfilter</button>
+            <button class="button-light">#vindskydd</button>
+            <button class="button-light">#handborr</button>
+            <button class="button-light">#eldstartare</button>
 
         </div>
     </div>
