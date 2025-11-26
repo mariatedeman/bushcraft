@@ -6,7 +6,7 @@
     display: none;
 
     position: fixed;
-    top: 0;
+    top: 92px;
     z-index: 99;
     overflow-y: auto;
     overflow-x: hidden;
@@ -29,6 +29,7 @@
     width: 100vw;
     height: 393px;
     overflow-y: hidden;
+    align-items: center;
 
     anchor-name: --carousel;
     scroll-marker-group: after;
@@ -66,6 +67,7 @@
 .product-popup-img-carousel .card {
     height: 450px;
     flex: 0 0 100vw;
+    justify-content: center;
 }
 
 .product-popup-img-carousel .card img {
@@ -153,11 +155,32 @@
 }
 
 .product-popup-color-black {
-background-color: rgb(49, 49, 49);
+    background-color: rgb(49, 49, 49);
 }
 
 .product-popup-color-green {
-background-color: rgb(118, 141, 87);
+    background-color: rgb(118, 141, 87);
+}
+
+.product-popup-color-bluegreen {
+    background-color: #5F6C68;
+}
+
+.product-popup-color-grey {
+    background-color: #B9B5AD;
+}
+
+.product-popup-color-onecolor {
+    background-color: var(--primary-light);
+    border: 1px solid var(--primary-dark);
+}
+
+.product-popup-color-onecolor::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    border-top: 1px solid var(--primary-dark);
+    transform: translate(-50%, -50%) rotate(45deg);
 }
 
 .product-popup-description {
@@ -210,7 +233,8 @@ form button {
 
 @media screen and (min-width: 1200px) {
 
-    #product-popup:target {
+    #product-popup:target,
+    #product-popup-array:target {
         height: 90vh;
         width: auto;
         place-self: anchor-center;
@@ -252,7 +276,9 @@ form button {
     .product-popup-img-carousel .carousel {
         height: 720px;
         width: 540px;
+        align-items: center;
     }
+
     .product-popup-img-carousel .card {
         height: 100%;
         flex: 0 0 100%;
