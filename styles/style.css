@@ -1,14 +1,17 @@
-
 /* --- HOME PAGE --- */
 
 .hero {
     height: 80vh;
     width: 100vw;
-    background-color: lightgrey;
     
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    background-image: url(/assets/kinforma_hero-img.png);
+    background-size: contain;
+
+    color: var(--primary-light);
 }
 
 .hero-container {
@@ -17,6 +20,12 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
+}
+
+.hero-container div {
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -39,16 +48,17 @@
 }
 
 .card {
-    height: 450px;
+    height: 465px;
     flex: 0 0 290px;
     scroll-snap-align: start;
     margin-bottom: 3rem;
+
+    contain: content;
 }
 
 .card-img-container {
     height: 390px;
     width: 290px;
-    background-color: white;
     margin-bottom: 2rem;
 
     display: flex;
@@ -75,7 +85,7 @@
 
 .card-button {
     position: relative;
-    height: 475px;
+    height: 485px;
 }
 
 .card-button button {
@@ -91,18 +101,26 @@
 .img-background, 
 .img-background-signup, 
 .img-background-chat {
-    background-color: lightgray;
     height: 650px;
     width: 100vw;
+
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    
+    color: var(--primary-light);
+
+    background-size: cover;
 }
 
 .img-background-signup {
     flex-direction: column;
     justify-content: space-evenly;
+
+    background-image: url(/assets/kinforma-camp-fire.png);
+    background-size: cover;
+    background-position: center;
 }
 
 .signup-container {
@@ -141,6 +159,11 @@
 
 /* --- CHAT --- */
 
+.img-background-chat {
+    background-image: url(/assets/kinforma-canvas-background.png);
+    color: var(--primary-light);
+}
+
 .buttons-container {
     display: flex;
     flex-wrap: wrap;
@@ -148,3 +171,13 @@
     gap: 0.5rem;
     margin-top: 5rem;
 }
+
+
+/* --- ABOUT US --- */
+.img-background {
+    background-image: linear-gradient(45deg, #0000009e, #0000009e), url(/assets/kinforma-poncho-nature-2.png);
+    background-size: cover;
+    background-position: right;
+    
+}
+

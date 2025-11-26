@@ -26,7 +26,7 @@
         align-items: center;
 
         position: fixed;
-        background: white;
+        background: var(--primary-light);
         z-index: 99
     }
 
@@ -58,6 +58,7 @@
     .menu-desktop {
         flex-direction: row;
         justify-content: space-between;
+        padding-bottom: 3rem;
     }
 
     .menu-desktop .menu-item {
@@ -127,8 +128,23 @@
         position: fixed;
     }
 
+    .hero {
+        color: var(--primary-dark);
+        background-position: center;
+        background-size: cover;
+    }
+
     .hero-container img {
         display: none;
+    }
+
+    .hero-container button {
+        background-color: var(--primary-dark);
+        color: var(--primary-light);
+    }
+
+    .hero-container button:hover {
+        background-color: var(--hover-dark);
     }
 
 

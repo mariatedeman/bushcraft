@@ -9,8 +9,8 @@
     <div class="hero-container">
         <img src="assets/logotyp_text_symbol-red.svg">
         <div>
-            <p class="subheading">Underrubrik</p>
-            <button class="button-primary">Button</button>
+            <p class="subheading">Framtidens bushcraft idag</p>
+            <button class="button-light">Utforska</button>
         </div>
     </div>
 </section>
@@ -25,17 +25,17 @@
 <!-- SIGN UP SECTION - KINKOLLEKTIVET -->
 <section class="img-background-signup">
     <div class="img-background-text">
-        <h2>kinkollektivet</h2>
-        <p>Bli en del av sveriges största bush craft-kollektiv.
+        <p>Bli en del av sveriges största bushcraft-kollektiv.
             Köp och sälj begagnad utrustning,
             diskutera spännande ämnen och dela dina bästa tips och råd.</p>
+        <h2>kinkollektivet</h2>
     </div>
     <div class="signup-container">
         <p class="subheading">Bli medlem/ Logga in</p>
         <p>Mejladress</p>
         <!-- TODO: Add input security in seperate file --->
         <?php require_once __DIR__ . "/includes/input.php" ?>
-        <button class="button-primary">Skicka verifieringskod</button>
+        <button class="button-green">Skicka verifieringskod</button>
     </div>
 
 </section>
@@ -49,10 +49,10 @@
             <h2>Kinchatten</h2>
         </div>
         <div class="buttons-container">
-            <button class="button-secondary">Button</button>
-            <button class="button-secondary">Button</button>
-            <button class="button-secondary">Button</button>
-            <button class="button-secondary">Button</button>
+            <button class="button-light">Button</button>
+            <button class="button-light">Button</button>
+            <button class="button-light">Button</button>
+            <button class="button-light">Button</button>
 
         </div>
     </div>
@@ -62,6 +62,8 @@
 <!-- MOBILE: CAROUSEL || DESKTOP: GALLERY -->
 <?php require_once __DIR__ . "/includes/kintech.php" ?>
 
+
+<!-- ABOUT US -->
 <section class="img-background">
     <div>
         <div class="img-background-text">
@@ -71,6 +73,7 @@
         <button class="button-primary">Om oss</button>
     </div>
 </section>
+
 
 
 <script src="script.js"></script>

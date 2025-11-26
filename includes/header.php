@@ -62,12 +62,21 @@
 
                         <section>
                             <div class="menu-icons">
-                                <img src="/assets/globe.svg" alt="">
+                                <label for="language-options-open"><img src="/assets/globe.svg" alt=""></label>
                                 <img src="/assets/help-circle.svg" alt="">
                                 <img src="/assets//mail.svg" alt="">
                             </div>
-
                             <img src="/assets/logo-tm.svg" alt="">
+                        </section>
+
+
+                        <input type="checkbox" id="language-options-open">
+                        <section class="language-menu">
+                            <p>Sverige / SEK</p>
+                            <p>Danmark / DDK</p>
+                            <p>Deutschand / €</p>
+                            <p>England / GBP</p>
+                        </section>
                     </nav>
                 </section>
                 <!-- END OF MENU -->

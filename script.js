@@ -1,32 +1,22 @@
 // PRODUCT POPUP: COLOR CONFIGURATOR
-// const productImage = document.querySelector(".product-popup-img-active");
-// const colorButtons = document.querySelectorAll(".product-popup-color");
-
-// colorButtons.forEach(button => {
-//     button.addEventListener("click", () => {
-//         const newImage = button.getAttribute("data-img");
-//         productImage.src = newImage;
-//     });
-// });
-
-
-// PRODUCT POPUP: COLOR CONFIGURATOR
 const productImagePrimary = document.querySelector(".product-popup-img-1");
 const productImageSecondary = document.querySelector(".product-popup-img-2");
 const colorButtons = document.querySelectorAll(".product-popup-color");
 
 colorButtons.forEach(button => {
     button.addEventListener("click", () => {
-        const newImagePrimary = button.getAttribute("data-img");
+        const newImagePrimary = button.getAttribute("data-img-primary");
         const newImageSecondary = button.getAttribute("data-img-secondary");
         
         productImagePrimary.src = newImagePrimary;
         
         if (newImageSecondary && productImageSecondary) {
             productImageSecondary.src = newImageSecondary;
-        }
+        } 
+
     });
 });
+
 
 // HEADER: CHANGE ICON ON CLICK
 const menuIcon = document.querySelector(".menu-icon");
@@ -46,11 +36,10 @@ if (menuIcon) {
     });
 }
 
-const sizeChoice = document.querySelector(".product-popup-size-amount-choices");
+// PRODUCT POPUP: SIZE / AMMOUNT CHOICE ---> NOT FINISHED
+// const sizeChoice = document.querySelector(".product-popup-size-amount-choices");
 
-sizeChoice.addEventListener("click", () => {
-    sizeChoice.classList.toggle("subheading");
+// sizeChoice.addEventListener("click", () => {
+//     sizeChoice.classList.toggle("subheading");   
 
-    
-
-})
+// })
