@@ -10,7 +10,7 @@
 
                     <div class="shopping-cart-in-cart">
                         <div class="shopping-cart-in-cart-img-container">
-                            <img class="shopping-cart-in-cart-img" src="/assets/borr_frilagd_gron.png" alt="">
+                            <img class="shopping-cart-in-cart-img" src="/assets/products/drill/drill-front-2.png" alt="">
                         </div>
 
                         <div class="shopping-cart-in-cart-info-ammount-remove">

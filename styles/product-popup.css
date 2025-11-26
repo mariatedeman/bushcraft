@@ -219,6 +219,7 @@ form input {
     width: 345px;
     height: 125px;
     margin-top: 1.5rem;
+    margin-bottom: 7rem;
 
     border: none;
     background-color: var(--hover-light);
@@ -228,6 +229,7 @@ form input {
 form button {
     margin-top: 1rem;
     float: right;
+    margin-top: -6rem;
 }
 
 

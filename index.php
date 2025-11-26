@@ -25,9 +25,9 @@
 <!-- SIGN UP SECTION - KINKOLLEKTIVET -->
 <section class="img-background-signup">
     <div class="img-background-text">
+        <h2>kinkollektivet</h2>
         <p>Bli en del av sveriges största bush craft-kollektiv. Köp och
             sälj begagnad utrustning och ta del av Kinchatten.</p>
-        <h2>kinkollektivet</h2>
     </div>
     <div class="signup-container">
         <p class="subheading">Bli medlem / Logga in:</p>
@@ -63,13 +63,13 @@
 
 
 <!-- ABOUT US -->
-<section class="img-background">
+<section class="img-background about-us">
     <div>
         <div class="img-background-text">
             <p>Upplev en ny dimension av bushcraft. Designad för dig, drivet av teknik, skapat för planeten.</p>
             <h2>Vår idé</h2>
         </div>
-        <button class="button-primary">Om oss</button>
+        <button class="button-light">Om oss</button>
     </div>
 </section>
 
