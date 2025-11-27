@@ -28,6 +28,7 @@ h1, h2 {
     text-transform: uppercase;
     font-weight: 400;
     text-align: center;
+    font-size: 2rem;
     
     margin: 2rem;
 }
@@ -258,6 +259,8 @@ nav section {
 
 .shopping-cart-in-cart-img-container img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .shopping-cart-in-cart-info-ammount-remove {
@@ -341,9 +344,15 @@ footer p {
     padding: 1rem;
 }
 
+.footer-socials div {
+    display: flex;
+    justify-content: space-between;
+}
+
 .footer-socials, .footer-payment {
     display: flex;
     flex-direction: column;
+    margin-top: 0.5rem;
 }
 
 .footer-socials span, .footer-payment span {

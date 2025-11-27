@@ -1,14 +1,13 @@
-<?php // PRODUCT POPUP PONCHO MED FÄRGVAL 
+<?php
 
 require __DIR__ . "/product-data.php"; ?>
 
-<!-- IMG CAROUSEL ----- ARRAY INFO -->
 <?php if (isset($_GET['id'])) : ?>
     <article id="product-popup">
         <span class="product-popup-container">
             <a href="#" class="product-popup-close"><img src="/assets/plus.svg"></a>
 
-            <!-- IMG CAROUSEL WITH ARRAY INFO -->
+            <!-- IMG CAROUSEL  -->
             <section class="product-popup-img-carousel">
                 <section class="carousel">
 

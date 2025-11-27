@@ -121,6 +121,7 @@
     .singel-logos-desktop img:first-child {
         left: 2rem;
         position: fixed;
+        z-index: 5;
     }
 
     .singel-logos-desktop img:last-child {
@@ -232,8 +233,18 @@
         width: 676px;
         height: 100%;
 
-        background-color: white;
+        background-color: #bcbbb7;
         contain: content;
+    }
+
+    .gallery-desktop-kintech .card-img-container div {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        z-index: 2;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
     }
 
     .gallery-desktop-kintech .card-button img {
@@ -241,6 +252,11 @@
         object-fit: cover;
         scale: 1;
         transition: scale 1s;
+        filter: brightness(0.9);
+    }
+
+    .gallery-desktop-kintech .card-button p {
+        font-weight: 600;
     }
 
     .gallery-desktop-kintech .card-button img:hover {
@@ -248,7 +264,7 @@
     }
 
     .card-button button {
-        top: 85%;
+        top: 300%;
     }
 
     /* --- FOOTER ---*/
@@ -372,7 +388,6 @@
 
     .footer-copyright-container{
         display:flex;
-        flex-direction: end;
         justify-content: flex-end;
     }
 
@@ -390,20 +405,33 @@
     }
     
     #footer-wrapper{
-        scale:100%;
-        display:grid;
+        scale: 100%;
+        display: grid;
         grid-template-columns: 35rem 19rem 25rem;
-        grid-template-rows:auto;
-        column-gap: 5rem;
+        grid-template-rows: auto;
+        column-gap: 3rem;
         grid-template-areas:
         "footmedia1 footer-logo footer-container";
-        z-index:2;
         background-color:var(--primary-light);
+        
+        z-index: 100;
+        padding-top: 2rem;
+        margin-top: -2rem;
     }
 
     .body-bold{
         font-weight: bold;
     }
 
+    footer input {
+        display: none;
+    }
+
+    .footer-language-menu {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        background-color: var(--primary-light);
+    }
 
 }
